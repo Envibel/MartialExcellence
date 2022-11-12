@@ -31,6 +31,10 @@ namespace MartialExcellence.Util
         internal const string StunningAssaultBuffGuid = "4c901ec3-38d1-4b63-bcde-426efaa54ffc";
         internal const string StunningAssaultAbilityGuid = "a2b07a78-1c4f-44c2-9243-1f0073127482";
 
+        internal const string ShieldSlamGuid = "c0d00f98-0a49-4088-8b5b-4da84b1274bc";
+        internal const string ShieldSlamBuffGuid = "bbd6e969-16ba-40bd-9886-27f201359fc5";
+        internal const string ShieldSlamAbilityGuid = "a1ec8bcf-7e9c-4fae-ae06-19d584998fbc";
+
 
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
@@ -38,7 +42,7 @@ namespace MartialExcellence.Util
                 //(BrokenWingGambitGuid, BrokenWingGambit.DisplayName),
                 (DazingAssaultGuid, DazingAssault.DisplayName),
                 (StunningAssaultGuid, StunningAssault.DisplayName),
-                //(BuletteChargeStyleFeat, BuletteChargeStyle.DisplayName),
+                (ShieldSlamGuid, ShieldSlam.DisplayName),
                 //(BuletteLeapFeat, BuletteLeap.DisplayName),
                 //(BuletteRampageFeat, BuletteRampage.DisplayName),
                 //(ViciousStompFeat, ViciousStomp.DisplayName),

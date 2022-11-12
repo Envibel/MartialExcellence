@@ -45,6 +45,17 @@
   },
 
   {
+    "Key": "ShieldSlam.Name",
+    "ProcessTemplates": false,
+    "enGB": "Shield Slam"
+  },
+
+  {
+    "Key": "ShieldSlam.Description",
+    "enGB": "Any opponents hit by your shield bash are also hit with a free bull rush attack."
+  },
+
+  {
     "Key": "MartialExcellence.Settings.Title",
     "ProcessTemplates": false,
     "enGB": "Martial Excellence"
