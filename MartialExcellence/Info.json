@@ -1,0 +1,11 @@
+{
+  "Id": "MartialExcellence",
+  "DisplayName": "MartialExcellence",
+  "Author": "Envibel",
+  "Version": "1.0.0",
+  "ManagerVersion": "0.21.3",
+  "Requirements": [],
+  "AssemblyName": "MartialExcellence.dll",
+  "EntryMethod": "MartialExcellence.Main.Load"
+}
+
