@@ -7,7 +7,7 @@ Martial Excellence aims to add various martial related features to Wrath of the 
 # Installation
 
 1. Download and Install Unity Mod Manager (UMM)
-2. Download the latest release of Martial Excellence from the Releases page
+2. Download the latest release of Martial Excellence from the [Releases](https://github.com/Envibel/MartialExcellence/releases) page
 3. Install Martial Excellence using UMM.
 
 # Current Content
