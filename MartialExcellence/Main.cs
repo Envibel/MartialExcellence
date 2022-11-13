@@ -6,6 +6,8 @@ using Kingmaker.Blueprints.JsonSystem;
 using System;
 using UnityModManagerNet;
 using MartialExcellence.RagePowers;
+using MartialExcellence.Backgrounds;
+
 
 namespace MartialExcellence
 {
@@ -62,6 +64,8 @@ namespace MartialExcellence
                     ViciousStomp.Configure();
 
                     ComeAndGetMe.Configure();
+
+                    JungleExplorer.Configure();
 
                 }
                 catch (Exception e)

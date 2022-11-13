@@ -37,7 +37,9 @@ namespace MartialExcellence.Util
 
         internal const string ViciousStompGuid = "d3c1e291-f5d0-4957-ab58-fbd03954d872";
 
-
+        //internal const string RagingBrutalityGuid = "d5f72532-ce07-4194-bc84-6436dc1933d5";
+        //internal const string RagingBrutalityBuffGuid = "c27dfaf9-189f-4720-927d-2de46ae1ba39";
+        //internal const string RagingBrutalityAbilityGuid = "00b57662-6f7f-4322-9e1f-d1629f13a1d7";
 
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
@@ -46,7 +48,7 @@ namespace MartialExcellence.Util
                 (DazingAssaultGuid, DazingAssault.DisplayName),
                 (StunningAssaultGuid, StunningAssault.DisplayName),
                 (ShieldSlamGuid, ShieldSlam.DisplayName),
-                //(BuletteLeapFeat, BuletteLeap.DisplayName),
+                //(RagingBrutalityGuid, RagingBrutality.DisplayName),
                 //(BuletteRampageFeat, BuletteRampage.DisplayName),
                 (ViciousStompGuid, ViciousStomp.DisplayName),
             };
@@ -73,6 +75,11 @@ namespace MartialExcellence.Util
                 //(UnrestrainedRageFeat, UnrestrainedRage.DisplayName),
                 //(WitchHunterFeat, WitchHunter.DisplayName),
             };
+
+        #endregion
+
+        #region Backgrounds
+        internal const string JungleExplorerGuid = "97ed0d30-9f70-4d85-b0fd-1eacd6f91208";
 
         #endregion
     }

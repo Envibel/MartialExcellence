@@ -95,7 +95,6 @@ namespace MartialExcellence.Feats
                 .AddPrerequisiteFeature(FeatureRefs.ShieldsProficiency.ToString())
                 .AddPrerequisiteStatValue(StatType.BaseAttackBonus, 6)
                 .AddToRangerStyles(RangerStyle.Shield2)
-                .AddFeatureTagsComponent(featureTags: FeatureTag.Melee | FeatureTag.CombatManeuver)
                 .AddFacts(new() { ability })
                 .SetIcon(Icon)
                 .Configure(delayed: true);
