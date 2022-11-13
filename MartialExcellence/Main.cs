@@ -59,6 +59,7 @@ namespace MartialExcellence
                     DazingAssault.Configure();
                     StunningAssault.Configure();
                     ShieldSlam.Configure();
+                    ViciousStomp.Configure();
 
                     ComeAndGetMe.Configure();
 

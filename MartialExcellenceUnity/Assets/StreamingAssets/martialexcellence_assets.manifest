@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2139107812
+CRC: 2593853226
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e3cd5482fe06e37da068b025920a260a
+    Hash: 63455af9c292a982b1cc7c37a91351d8
   TypeTreeHash:
     serializedVersion: 2
     Hash: c90fc19e2679e5295d10bd00f33cb4c3
@@ -16,6 +16,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Icons/quillen.jpg
+- Assets/Icons/viciousstomp.jpg
 - Assets/Icons/dazingassault.jpg
 - Assets/Icons/shieldslam.jpg
 - Assets/Icons/comeandgetme.jpg

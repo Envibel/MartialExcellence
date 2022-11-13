@@ -20,7 +20,7 @@ using static Kingmaker.Blueprints.Classes.Prerequisites.Prerequisite;
 namespace MartialExcellence.Feats
 {
     /// <summary>
-    /// Creates a feat that does nothing but show up.
+    /// Creates the Stunning Assault feat.
     /// </summary>
     public class StunningAssault
     {

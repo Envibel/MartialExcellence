@@ -35,6 +35,9 @@ namespace MartialExcellence.Util
         internal const string ShieldSlamBuffGuid = "bbd6e969-16ba-40bd-9886-27f201359fc5";
         internal const string ShieldSlamAbilityGuid = "a1ec8bcf-7e9c-4fae-ae06-19d584998fbc";
 
+        internal const string ViciousStompGuid = "d3c1e291-f5d0-4957-ab58-fbd03954d872";
+
+
 
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
@@ -45,8 +48,7 @@ namespace MartialExcellence.Util
                 (ShieldSlamGuid, ShieldSlam.DisplayName),
                 //(BuletteLeapFeat, BuletteLeap.DisplayName),
                 //(BuletteRampageFeat, BuletteRampage.DisplayName),
-                //(ViciousStompFeat, ViciousStomp.DisplayName),
-                //(ShieldSlamFeat, ShieldSlam.DisplayName),
+                (ViciousStompGuid, ViciousStomp.DisplayName),
             };
 
         #endregion

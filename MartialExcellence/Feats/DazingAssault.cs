@@ -1,19 +1,13 @@
 using BlueprintCore.Actions.Builder;
 using BlueprintCore.Actions.Builder.ContextEx;
-using BlueprintCore.Blueprints.Configurators.Classes.Selection;
 using BlueprintCore.Blueprints.Configurators.UnitLogic.ActivatableAbilities;
 using BlueprintCore.Blueprints.CustomConfigurators.Classes;
 using BlueprintCore.Blueprints.CustomConfigurators.UnitLogic.Buffs;
 using BlueprintCore.Blueprints.References;
-using BlueprintCore.Conditions.Builder;
-using BlueprintCore.Conditions.Builder.BasicEx;
-using BlueprintCore.Utils;
 using BlueprintCore.Utils.Types;
-using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints.Classes.Selection;
 using Kingmaker.EntitySystem.Stats;
-using Kingmaker.UnitLogic.Mechanics.Actions;
 using MartialExcellence.Util;
 using System;
 using static Kingmaker.Blueprints.Classes.Prerequisites.Prerequisite;
@@ -22,7 +16,7 @@ using static UnityModManagerNet.UnityModManager.ModEntry;
 namespace MartialExcellence.Feats
 {
     /// <summary>
-    /// Creates a feat that does nothing but show up.
+    /// Creates the Dazing Assault feat.
     /// </summary>
     public class DazingAssault
     {

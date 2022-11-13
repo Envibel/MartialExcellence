@@ -56,6 +56,17 @@
   },
 
   {
+    "Key": "ViciousStomp.Name",
+    "ProcessTemplates": false,
+    "enGB": "Vicious Stomp"
+  },
+
+  {
+    "Key": "ViciousStomp.Description",
+    "enGB": "Whenever an opponent falls prone adjacent to you, that opponent provokes an attack of opportunity from you. This attack must be an unarmed strike."
+  },
+
+  {
     "Key": "MartialExcellence.Settings.Title",
     "ProcessTemplates": false,
     "enGB": "Martial Excellence"

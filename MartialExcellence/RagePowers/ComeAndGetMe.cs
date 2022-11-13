@@ -20,6 +20,9 @@ using MartialExcellence.Util;
 
 namespace MartialExcellence.RagePowers
 {
+    /// <summary>
+    /// Creates the Come and Get Me! rage power.
+    /// </summary>
     public class ComeAndGetMe
     {
         private static readonly string RagePowerName = "ComeAndGetMeRagePower";
