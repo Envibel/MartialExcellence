@@ -31,9 +31,16 @@ namespace MartialExcellence.Feats
     {
         private static readonly string FeatName = "RagingBrutalityFeat";
         private static readonly string FeatBuffName = "RagingBrutalityFeatBuff";
-        private static readonly string FeatAbilityName = "RagingBrutalityFeatAbility";
+        private static readonly string FeatAbilityStandardRageName = "RagingBrutalityFeatAbilityStandardRage";
+        private static readonly string FeatAbilityFocusedRageName = "RagingBrutalityFeatAbilityFocusedRage";
+        private static readonly string FeatAbilityBloodragerRageName = "RagingBrutalityFeatAbilityBloodragerRage";
+
 
         internal const string DisplayName = "RagingBrutality.Name";
+        internal const string StandardRageAbilityName = "RagingBrutality.StandardRage.Name";
+        internal const string FocusedRageAbilityName = "RagingBrutality.FocusedRage.Name";
+        internal const string BloodragerRageAbilityName = "RagingBrutality.BloodragerRage.Name";
+
         private static readonly string Description = "RagingBrutality.Description";
         private static readonly string Icon = "assets/icons/ragingbrutality.jpg";
 
@@ -52,12 +59,40 @@ namespace MartialExcellence.Feats
             reqBuffs.Add(BuffRefs.StandartRageBuff.ToString());
             reqBuffs.Add(BuffRefs.PowerAttackBuff.ToString());
 
-            var ability =
-                AbilityConfigurator.New(FeatAbilityName, Guids.RagingBrutalityAbilityGuid)
-                    .SetDisplayName(DisplayName)
+            var abilityStandardRage =
+                AbilityConfigurator.New(FeatAbilityStandardRageName, Guids.RagingBrutalityAbilityStandardRageGuid)
+                    .SetDisplayName(StandardRageAbilityName)
                     .SetDescription(Description)
                     .SetType(AbilityType.Extraordinary)
                     .AddAbilityResourceLogic(3, isSpendResource: true, requiredResource: AbilityResourceRefs.RageResourse.ToString())
+                    .SetActionType(UnitCommand.CommandType.Swift)
+                    .AddTargetHasBuffsFromCaster(reqBuffs, requireAllBuffs: true)
+                    .AddAbilityEffectRunAction(
+                        ActionsBuilder.New().ApplyBuffWithDurationSeconds(buff, 6, isNotDispelable: true))
+                    .SetRange(AbilityRange.Personal)
+                    .SetIcon(Icon)
+                    .Configure();
+
+            var abilityFocusedRage =
+                AbilityConfigurator.New(FeatAbilityFocusedRageName, Guids.RagingBrutalityAbilityFocusedRageGuid)
+                    .SetDisplayName(FocusedRageAbilityName)
+                    .SetDescription(Description)
+                    .SetType(AbilityType.Extraordinary)
+                    .AddAbilityResourceLogic(3, isSpendResource: true, requiredResource: AbilityResourceRefs.FocusedRageResourse.ToString())
+                    .SetActionType(UnitCommand.CommandType.Swift)
+                    .AddTargetHasBuffsFromCaster(reqBuffs, requireAllBuffs: true)
+                    .AddAbilityEffectRunAction(
+                        ActionsBuilder.New().ApplyBuffWithDurationSeconds(buff, 6, isNotDispelable: true))
+                    .SetRange(AbilityRange.Personal)
+                    .SetIcon(Icon)
+                    .Configure();
+
+            var abilityBloodragerRage =
+                AbilityConfigurator.New(FeatAbilityBloodragerRageName, Guids.RagingBrutalityAbilityBloodragerRageGuid)
+                    .SetDisplayName(BloodragerRageAbilityName)
+                    .SetDescription(Description)
+                    .SetType(AbilityType.Extraordinary)
+                    .AddAbilityResourceLogic(3, isSpendResource: true, requiredResource: AbilityResourceRefs.BloodragerRageResource.ToString())
                     .SetActionType(UnitCommand.CommandType.Swift)
                     .AddTargetHasBuffsFromCaster(reqBuffs, requireAllBuffs: true)
                     .AddAbilityEffectRunAction(
@@ -74,7 +109,9 @@ namespace MartialExcellence.Feats
                 .AddPrerequisiteStatValue(StatType.BaseAttackBonus, 12)
                 .AddPrerequisiteStatValue(StatType.Strength, 13)
                 .AddFeatureTagsComponent(FeatureTag.Melee | FeatureTag.Damage | FeatureTag.ClassSpecific)
-                .AddFacts(new() { ability })
+                .AddFacts(new() { abilityStandardRage })
+                .AddFacts(new() { abilityFocusedRage })
+                .AddFacts(new() { abilityBloodragerRage })
                 .SetIcon(Icon)
                 .Configure(delayed: true);
         }

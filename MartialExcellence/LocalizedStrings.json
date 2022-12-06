@@ -78,6 +78,24 @@
   },
 
   {
+    "Key": "RagingBrutality.StandardRage.Name",
+    "ProcessTemplates": false,
+    "enGB": "Raging Brutality - Rage"
+  },
+
+  {
+    "Key": "RagingBrutality.FocusedRage.Name",
+    "ProcessTemplates": false,
+    "enGB": "Raging Brutality - Focused Rage"
+  },
+
+  {
+    "Key": "RagingBrutality.BloodragerRage.Name",
+    "ProcessTemplates": false,
+    "enGB": "Raging Brutality - Bloodrage"
+  },
+
+  {
     "Key": "JungleExplorer.Name",
     "ProcessTemplates": false,
     "enGB": "Jungle Explorer"

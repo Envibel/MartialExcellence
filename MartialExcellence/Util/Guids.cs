@@ -39,7 +39,10 @@ namespace MartialExcellence.Util
 
         internal const string RagingBrutalityGuid = "d5f72532-ce07-4194-bc84-6436dc1933d5";
         internal const string RagingBrutalityBuffGuid = "c27dfaf9-189f-4720-927d-2de46ae1ba39";
-        internal const string RagingBrutalityAbilityGuid = "00b57662-6f7f-4322-9e1f-d1629f13a1d7";
+        internal const string RagingBrutalityAbilityStandardRageGuid = "00b57662-6f7f-4322-9e1f-d1629f13a1d7";
+        internal const string RagingBrutalityAbilityFocusedRageGuid = "37014394-e337-4e45-8410-d53107f1fa7e";
+        internal const string RagingBrutalityAbilityBloodragerRageGuid = "a55da688-c50b-4474-ba03-af88c6879e4c";
+
 
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
