@@ -16,8 +16,10 @@ Martial Excellence aims to add various martial related features to Wrath of the 
 	* [Stunning Assault](https://www.d20pfsrd.com/feats/combat-feats/stunning-assault-combat/)
 	* [Shield Slam](https://www.d20pfsrd.com/feats/combat-feats/shield-slam-combat/) (Only bull rushes)
 	* [Vicious Stomp](https://www.d20pfsrd.com/feats/combat-feats/vicious-stomp-combat/) (Does not stack with greater trip)
+	* [Raging Brutality](https://www.d20pfsrd.com/feats/general-feats/raging-brutality/) (Is not affected by two handing but is multiplied on crit)
 * Rage Powers
 	* [Come and Get Me!](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/come-and-get-me-ex/)
+	* [Unrestrained Rage](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/unrestrained-rage/) (Only portion where immune to paralysis while raging)
 * Homebrew
 	* Backgrounds
 		* Jungle Explorer
