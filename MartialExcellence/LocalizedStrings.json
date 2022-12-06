@@ -74,7 +74,7 @@
 
   {
     "Key": "RagingBrutality.Description",
-    "enGB": "While raging and using Power Attack, you can spend 3 additional rounds of your rage as a swift action to add your Constitution bonus on damage rolls for melee attacks or thrown weapon attacks you make on your turn. If you are using the weapon two-handed, instead add 1-1/2 times your Constitution bonus. This bonus damage is not multiplied on a critical hit."
+    "enGB": "While raging and using Power Attack, you can spend 3 additional rounds of your rage as a swift action to add your Constitution bonus on damage rolls for melee attacks or thrown weapon attacks you make on your turn. This bonus damage is multiplied on a critical hit."
   },
 
   {
@@ -86,6 +86,28 @@
   {
     "Key": "JungleExplorer.Description",
     "enGB": "Lumberjack adds {g|Encyclopedia:Athletics}Athletics{/g} and {g|Encyclopedia:Mobility}Mobility{/g} to the list of her class {g|Encyclopedia:Skills}skills{/g}. She also becomes proficient with kukri and gets a +1 {g|Encyclopedia:Bonus}bonus{/g} on Fortitude {g|Encyclopedia:Saving_Throw}saving throws{/g}. \n If the character already has the class skill, {g|Encyclopedia:Weapon_Proficiency}weapon proficiency{/g} or armor proficiency granted by the selected background from her class during character creation, then the corresponding bonuses from background change to a +1 competence bonus in case of skills, a +1 enhancement bonus in case of weapon proficiency and a -1 Armor {g|Encyclopedia:Check}Check{/g} {g|Encyclopedia:Penalty}Penalty{/g} reduction in case of armor proficiency."
+  },
+
+  {
+    "Key": "UnrestrainedRage.Name",
+    "ProcessTemplates": false,
+    "enGB": "Unrestrained Rage"
+  },
+
+  {
+    "Key": "UnrestrainedRage.Description",
+    "enGB": "While raging, the barbarian is immune to paralysis. A barbarian must be at least 12th level to select this rage power."
+  },
+
+  {
+    "Key": "SpiritTotemLesser.Name",
+    "ProcessTemplates": false,
+    "enGB": "Spirit Totem, Lesser"
+  },
+
+  {
+    "Key": "SpiritTotemLesser.Description",
+    "enGB": "While raging, the barbarian is surrounded by spirit wisps that harass her foes. These spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This slam attack is made using the barbarian''s full base attack bonus, plus the barbarian''s Charisma modifier. The slam deals 1d4 points of negative energy damage, plus the barbarian''s Charisma modifier."
   },
 
   {

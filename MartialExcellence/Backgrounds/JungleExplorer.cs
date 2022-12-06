@@ -30,8 +30,8 @@ namespace MartialExcellence.Backgrounds
 
         public static void Configure()
         {
-            //List<BlueprintCore.Utils.Blueprint<Kingmaker.Blueprints.BlueprintUnitFactReference>> profList = new List<BlueprintCore.Utils.Blueprint<Kingmaker.Blueprints.BlueprintUnitFactReference>>();
-            //profList.Add(WeaponTypeRefs.Kukri.ToString());
+            List<BlueprintCore.Utils.Blueprint<Kingmaker.Blueprints.BlueprintUnitFactReference>> profList = new List<BlueprintCore.Utils.Blueprint<Kingmaker.Blueprints.BlueprintUnitFactReference>>();
+            profList.Add(FeatureRefs.KukriProficiency.ToString());
 
             var proficiencyList = new[] { WeaponCategory.Kukri };
 
@@ -41,7 +41,7 @@ namespace MartialExcellence.Backgrounds
                 .AddClassSkill(StatType.SkillMobility)
                 .AddClassSkill(StatType.SkillAthletics)
                 .AddProficiencies(weaponProficiencies: proficiencyList)
-                //.AddFacts(profList)
+                .AddFacts(profList)
                 .AddStatBonus(descriptor: ModifierDescriptor.UntypedStackable, stat: StatType.SaveFortitude, value: 1)
                 .AddBackgroundClassSkill(StatType.SkillMobility)
                 .AddBackgroundClassSkill(StatType.SkillAthletics)

@@ -56,15 +56,22 @@ namespace MartialExcellence
                     }
                     Initialized = true;
 
-                    Logger.Info("Configuring blueprints.");
-
+                    Logger.Info("Configuring feat blueprints.");
+                    // Configure Feats
                     DazingAssault.Configure();
                     StunningAssault.Configure();
                     ShieldSlam.Configure();
                     ViciousStomp.Configure();
+                    RagingBrutality.Configure();
 
+                    Logger.Info("Configuring rage power blueprints.");
+                    // Configure Rage Powers
                     ComeAndGetMe.Configure();
+                    UnrestrainedRage.Configure();
+                    //SpiritTotemLesser.Configure();
 
+                    Logger.Info("Configuring background blueprints.");
+                    // Configure Backgrounds
                     JungleExplorer.Configure();
 
                 }

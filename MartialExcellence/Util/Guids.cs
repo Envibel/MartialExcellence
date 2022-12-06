@@ -37,9 +37,9 @@ namespace MartialExcellence.Util
 
         internal const string ViciousStompGuid = "d3c1e291-f5d0-4957-ab58-fbd03954d872";
 
-        //internal const string RagingBrutalityGuid = "d5f72532-ce07-4194-bc84-6436dc1933d5";
-        //internal const string RagingBrutalityBuffGuid = "c27dfaf9-189f-4720-927d-2de46ae1ba39";
-        //internal const string RagingBrutalityAbilityGuid = "00b57662-6f7f-4322-9e1f-d1629f13a1d7";
+        internal const string RagingBrutalityGuid = "d5f72532-ce07-4194-bc84-6436dc1933d5";
+        internal const string RagingBrutalityBuffGuid = "c27dfaf9-189f-4720-927d-2de46ae1ba39";
+        internal const string RagingBrutalityAbilityGuid = "00b57662-6f7f-4322-9e1f-d1629f13a1d7";
 
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
@@ -62,6 +62,12 @@ namespace MartialExcellence.Util
         internal const string ComeAndGetMeEffectBuffGuid = "2ACA6CA0-D80C-471C-A9CA-74694BF0003B";
         internal const string ComeAndGetMeAbilityGuid = "4BAA4A2A-F2CE-401C-B501-A67524838CAB";
 
+        internal const string UnrestrainedRageGuid = "8678e342-7b58-4155-8ac4-48eea5056fd3";
+        internal const string UnrestrainedRageEffectBuffGuid = "e8b7355a-df19-4b4e-b4e1-9c615982b345";
+
+        internal const string SpiritTotemLesserGuid = "40ba266c-d464-4421-b114-5dcdc06c9b9c";
+        internal const string SpiritTotemLesserBuffGuid = "c9042f41-698b-4970-aa5d-92e2aba60587";
+        internal const string SpiritTotemLesserItemEnchantGuid = "6afeeb29-6e05-4ceb-b749-41c64f2dc250";
 
         internal static readonly (string guid, string displayName)[] RagePowers =
             new (string, string)[]
@@ -72,7 +78,8 @@ namespace MartialExcellence.Util
                 //(GhostRagerFeat, GhostRager.DisplayName),
                 //(OverbearingAdvanceFeat, OverbearingAdvance.DisplayName),
                 //(SuperstitionFeat, Superstition.DisplayName),
-                //(UnrestrainedRageFeat, UnrestrainedRage.DisplayName),
+                (UnrestrainedRageGuid, UnrestrainedRage.DisplayName),
+                (SpiritTotemLesserGuid, SpiritTotemLesser.DisplayName),
                 //(WitchHunterFeat, WitchHunter.DisplayName),
             };
 
