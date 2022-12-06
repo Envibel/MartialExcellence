@@ -25,7 +25,10 @@ Martial Excellence aims to add various martial related features to Wrath of the 
 		* Jungle Explorer
 			* Gives +1 fort save, mobility and athletics as class skills, and kukri proficiency.
 
-# Upcoming Content
+# Currently Planned Content
+* Races
+	* Skinwalker
+		* Never added a race before, may just do the features and let users add them through toybox.
 * Feats
 	* [Broken Wing Gambit](https://www.d20pfsrd.com/feats/combat-feats/broken-wing-gambit-combat-teamwork)
 	* [Wounded Paw Gambit](https://www.d20pfsrd.com/feats/combat-feats/wounded-paw-gambit-combat-teamwork/)
