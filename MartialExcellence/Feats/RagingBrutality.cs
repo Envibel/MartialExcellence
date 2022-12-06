@@ -109,9 +109,7 @@ namespace MartialExcellence.Feats
                 .AddPrerequisiteStatValue(StatType.BaseAttackBonus, 12)
                 .AddPrerequisiteStatValue(StatType.Strength, 13)
                 .AddFeatureTagsComponent(FeatureTag.Melee | FeatureTag.Damage | FeatureTag.ClassSpecific)
-                .AddFacts(new() { abilityStandardRage })
-                .AddFacts(new() { abilityFocusedRage })
-                .AddFacts(new() { abilityBloodragerRage })
+                .AddFacts(new() { abilityStandardRage, abilityFocusedRage, abilityBloodragerRage })
                 .SetIcon(Icon)
                 .Configure(delayed: true);
         }

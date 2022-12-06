@@ -43,6 +43,12 @@ namespace MartialExcellence.Util
         internal const string RagingBrutalityAbilityFocusedRageGuid = "37014394-e337-4e45-8410-d53107f1fa7e";
         internal const string RagingBrutalityAbilityBloodragerRageGuid = "a55da688-c50b-4474-ba03-af88c6879e4c";
 
+        internal const string HandsOfValorGuid = "0c5a0ef0-7ed1-475e-a51e-188d18eca411";
+        internal const string HandsOfValorBuffGuid = "36968e50-343b-40d5-8dd9-bc1ad95dbb94";
+        internal const string HandsOfValorAbilitySelfGuid = "b5a9ad92-89b9-49d7-a435-482e42271b82";
+        internal const string HandsOfValorAbilityOthersGuid = "a6bab4dc-d958-453d-bec3-d8934765981a";
+        internal const string HandsOfValorAbilityResourceGuid = "4c9951d8-13d3-45c8-9578-10a8720bb605";
+
 
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
@@ -54,6 +60,7 @@ namespace MartialExcellence.Util
                 (RagingBrutalityGuid, RagingBrutality.DisplayName),
                 //(BuletteRampageFeat, BuletteRampage.DisplayName),
                 (ViciousStompGuid, ViciousStomp.DisplayName),
+                (HandsOfValorGuid, HandsOfValor.DisplayName),
             };
 
         #endregion

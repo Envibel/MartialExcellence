@@ -129,6 +129,29 @@
   },
 
   {
+    "Key": "HandsOfValor.Name",
+    "ProcessTemplates": false,
+    "enGB": "Hands of Valor"
+  },
+
+  {
+    "Key": "HandsOfValor.Self.Name",
+    "ProcessTemplates": false,
+    "enGB": "Hands of Valor - Self"
+  },
+
+  {
+    "Key": "HandsOfValor.Others.Name",
+    "ProcessTemplates": false,
+    "enGB": "Hands of Valor - Others"
+  },
+
+  {
+    "Key": "HandsOfValor.Description",
+    "enGB": "Once per day when you use lay on hands, you can also imbue that ally with valor. In addition to the normal effects of your lay on hands, the targeted ally gains a sacred bonus on attack rolls and on saves against fear effects equal to your Charisma bonus (minimum +1) for 1 minute."
+  },
+
+  {
     "Key": "MartialExcellence.Settings.Title",
     "ProcessTemplates": false,
     "enGB": "Martial Excellence"

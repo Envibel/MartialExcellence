@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1500222992
+CRC: 2632146695
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7f38ebc778536c303932237ca38fefb6
+    Hash: ed86e88a2a18d7a436559c8379733849
   TypeTreeHash:
     serializedVersion: 2
     Hash: c90fc19e2679e5295d10bd00f33cb4c3
@@ -23,5 +23,7 @@ Assets:
 - Assets/Icons/spirittotem.jpg
 - Assets/Icons/unrestrainedrage.jpg
 - Assets/Icons/comeandgetme.jpg
+- Assets/Icons/handsofvalor.jpg
 - Assets/Icons/stunningassault.jpg
+- Assets/Icons/handsofvalorself.jpg
 Dependencies: []

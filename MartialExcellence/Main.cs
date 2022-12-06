@@ -63,6 +63,7 @@ namespace MartialExcellence
                     ShieldSlam.Configure();
                     ViciousStomp.Configure();
                     RagingBrutality.Configure();
+                    HandsOfValor.Configure();
 
                     Logger.Info("Configuring rage power blueprints.");
                     // Configure Rage Powers
