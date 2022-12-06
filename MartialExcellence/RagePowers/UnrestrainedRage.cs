@@ -9,6 +9,7 @@ using BlueprintCore.Conditions.Builder;
 using BlueprintCore.Conditions.Builder.ContextEx;
 using BlueprintCore.Utils;
 using Kingmaker;
+using Kingmaker.Blueprints;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints.Classes.Prerequisites;
 using Kingmaker.Blueprints.JsonSystem;
@@ -54,45 +55,18 @@ namespace MartialExcellence.RagePowers
                 .SetIcon(Icon)
                 .Configure();
 
-            // Allow regular rage to proc Unrestrained Rage
-            BuffConfigurator.For(BuffRefs.StandartRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                            .Conditional(
-                                ConditionsBuilder.New().HasFact(feature),
-                                ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
-
-            //Allow focused rage to proc Unrestrained Rage
-            BuffConfigurator.For(BuffRefs.StandartFocusedRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                            .Conditional(
-                                ConditionsBuilder.New().HasFact(feature),
-                                ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
-
-            // Allow bloodrage to proc Unrestrained Rage
-            BuffConfigurator.For(BuffRefs.BloodragerStandartRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                        .Conditional(
-                                ConditionsBuilder.New().HasFact(feature),
-                            ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
-
-            // Allow inspired rage to proc Unrestrained Rage
-            BuffConfigurator.For(BuffRefs.InspiredRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                        .Conditional(
-                                ConditionsBuilder.New().HasFact(feature),
-                            ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
+            // Activate unrestrained rage for each rage type: standard rage, bloodrager rage, focused rage, and inspired rage
+            foreach(var (buffRef, name) in LoopShortcuts.rageTypes)
+            {
+                BuffConfigurator.For(buffRef)
+                    .AddFactContextActions(
+                        activated:
+                            ActionsBuilder.New()
+                                .Conditional(
+                                    ConditionsBuilder.New().HasFact(feature),
+                                    ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
+                    .Configure();
+            }
         }
     }
 }

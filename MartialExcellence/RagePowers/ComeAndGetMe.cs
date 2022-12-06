@@ -73,45 +73,18 @@ namespace MartialExcellence.RagePowers
                 .AddFacts(new() { ability })
                 .Configure();
 
-            // Allow regular rage to proc Come and Get Me!
-            BuffConfigurator.For(BuffRefs.StandartRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                            .Conditional(
-                                ConditionsBuilder.New().HasBuff(SwitchBuffName),
-                                ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
-
-            //Allow focused rage to proc Come and Get Me!
-            BuffConfigurator.For(BuffRefs.StandartFocusedRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                            .Conditional(
-                                ConditionsBuilder.New().HasFact(SwitchBuffName),
-                                ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
-
-            // Allow bloodrage to proc Come and Get Me!
-            BuffConfigurator.For(BuffRefs.BloodragerStandartRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                        .Conditional(
-                            ConditionsBuilder.New().HasFact(SwitchBuffName),
-                            ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
-
-            // Allow inspired rage to proc Come and Get Me!
-            BuffConfigurator.For(BuffRefs.InspiredRageBuff)
-                .AddFactContextActions(
-                    activated:
-                        ActionsBuilder.New()
-                        .Conditional(
-                            ConditionsBuilder.New().HasFact(SwitchBuffName),
-                            ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
-                .Configure();
+            // Activate Come and Get Me! for each rage type: standard rage, bloodrager rage, focused rage, and inspired rage
+            foreach (var (buffRef, name) in LoopShortcuts.rageTypes)
+            {
+                BuffConfigurator.For(buffRef)
+                    .AddFactContextActions(
+                        activated:
+                            ActionsBuilder.New()
+                                .Conditional(
+                                    ConditionsBuilder.New().HasFact(SwitchBuffName),
+                                    ifTrue: ActionsBuilder.New().ApplyBuffPermanent(EffectBuffName, isNotDispelable: true)))
+                    .Configure();
+            }
         }
 
         [TypeId("3D36DAB2-0A0D-473A-84E9-1C71243818CF")]

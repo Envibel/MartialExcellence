@@ -48,7 +48,7 @@ namespace MartialExcellence.Util
                 (DazingAssaultGuid, DazingAssault.DisplayName),
                 (StunningAssaultGuid, StunningAssault.DisplayName),
                 (ShieldSlamGuid, ShieldSlam.DisplayName),
-                //(RagingBrutalityGuid, RagingBrutality.DisplayName),
+                (RagingBrutalityGuid, RagingBrutality.DisplayName),
                 //(BuletteRampageFeat, BuletteRampage.DisplayName),
                 (ViciousStompGuid, ViciousStomp.DisplayName),
             };

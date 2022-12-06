@@ -61,8 +61,7 @@ namespace MartialExcellence.Feats
                     .SetActionType(UnitCommand.CommandType.Swift)
                     .AddTargetHasBuffsFromCaster(reqBuffs, requireAllBuffs: true)
                     .AddAbilityEffectRunAction(
-                        ActionsBuilder.New().ApplyBuffWithDurationSeconds(buff, 6, isNotDispelable: true)
-                    )
+                        ActionsBuilder.New().ApplyBuffWithDurationSeconds(buff, 6, isNotDispelable: true))
                     .SetRange(AbilityRange.Personal)
                     .SetIcon(Icon)
                     .Configure();
