@@ -7,7 +7,12 @@ using System;
 using UnityModManagerNet;
 using MartialExcellence.RagePowers;
 using MartialExcellence.Backgrounds;
-
+using MartialExcellence.Races;
+using Kingmaker.Blueprints.Root;
+using MartialExcellence.Util;
+using BlueprintCore.Blueprints.References;
+using Kingmaker.Blueprints.Classes;
+using Kingmaker.Blueprints;
 
 namespace MartialExcellence
 {
@@ -65,6 +70,11 @@ namespace MartialExcellence
                     RagingBrutality.Configure();
                     HandsOfValor.Configure();
 
+                    Logger.Info("Configuring race blueprints.");
+                    // Configure Races
+                    Skinwalker.Configure();
+
+      
                     Logger.Info("Configuring rage power blueprints.");
                     // Configure Rage Powers
                     ComeAndGetMe.Configure();

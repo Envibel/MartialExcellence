@@ -65,6 +65,41 @@ namespace MartialExcellence.Util
 
         #endregion
 
+        #region Races
+
+        internal const string SkinwalkerGuid = "bc5a0f32-2e7c-43d0-8140-8d49b983cc00";
+        internal const string SkinwalkerHeritageSelectionGuid = "9fea524c-cc6e-40fc-b789-d4013bf81cdd";
+        internal const string SkinwalkerAnimalAspectGuid = "1437cfdf-4cae-4e15-86a3-ca5faa24d75d";
+        internal const string SkinwalkerSpellLikeResourceGuid = "1b3fc415-5c97-4910-8e2a-ba9a1a3307a9";
+
+
+
+        internal const string SkinwalkerHeritageClassicGuid = "0185983d-7b7e-4724-91f9-f75295c0a387";
+        internal const string SkinwalkerHeritageClassicChangeShapeAbilityGuid = "327d9ff5-b9da-42f5-8d10-cc63345fcb4c";
+        internal const string SkinwalkerHeritageClassicChangeShapeRevertAbilityGuid = "8c689f2c-5860-4dad-97df-f75a6639879b";
+        internal const string SkinwalkerHeritageClassicChangeShapeResourceGuid = "810a4c50-2070-4c45-97c7-d6111c90ed50";
+        internal const string SkinwalkerHeritageClassicChangeShapeRevertResourceGuid = "70f3bbcf-1692-457c-81bc-b10d710f63ee";
+
+        internal const string SkinwalkerHeritageClassicChangeShapeClawsAbilityGuid = "cbc08a54-7740-48bc-a509-22809f9a8f42";
+        internal const string SkinwalkerHeritageClassicChangeShapeClawsBuffGuid = "e1efebee-5927-46f5-b52a-7673f73b93bf";
+        internal const string SkinwalkerHeritageClassicChangeShapeArmorAbilityGuid = "de9062e5-edca-42be-9ff7-bef56e61154e";
+        internal const string SkinwalkerHeritageClassicChangeShapeArmorBuffGuid = "40025f5c-cf50-4925-b5a4-ee3359e35277";
+        internal const string SkinwalkerHeritageClassicChangeShapePerceptionAbilityGuid = "4143d2e0-fb29-4d90-8179-304336a17570";
+        internal const string SkinwalkerHeritageClassicChangeShapePerceptionBuffGuid = "ddcdb82c-737f-45cd-999e-cd2cde38c21d";
+        internal const string SkinwalkerHeritageSelectionClassicStrengthGuid = "0495f599-46f5-4ee0-b0e6-c3e23ed167a9";
+        internal const string SkinwalkerHeritageSelectionClassicDexterityGuid = "c0183f17-138d-41a5-8e08-3b5a0e224215";
+        internal const string SkinwalkerHeritageSelectionClassicConstitutionGuid = "5067f74a-7d11-45cd-ac5e-8aef2af23c7d";
+
+
+
+
+
+        internal const string SkinwalkerHeritageRagebredGuid = "da76b92d-17c3-4121-987e-e2dd6e21fc9b";
+
+
+
+
+        #endregion
 
         #region RagePowers
         internal const string ComeAndGetMeGuid = "63AEABA5-1974-4A97-9C9D-BCAD34C7B1D5";
