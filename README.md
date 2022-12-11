@@ -11,12 +11,18 @@ Martial Excellence aims to add various martial related features to Wrath of the 
 3. Install Martial Excellence using UMM.
 
 # Current Content
+* Races
+	* [Skinwalker](https://www.d20pfsrd.com/races/other-races/more-races/standard-races-1-10-rp/skinwalkers-10-rp/)
+		* Classic
+		* Ragebred
 * Feats
 	* [Dazing Assault](https://www.d20pfsrd.com/feats/combat-feats/dazing-assault-combat/)
 	* [Stunning Assault](https://www.d20pfsrd.com/feats/combat-feats/stunning-assault-combat/)
 	* [Shield Slam](https://www.d20pfsrd.com/feats/combat-feats/shield-slam-combat/) (Only bull rushes)
 	* [Vicious Stomp](https://www.d20pfsrd.com/feats/combat-feats/vicious-stomp-combat/) (Does not stack with greater trip)
 	* [Raging Brutality](https://www.d20pfsrd.com/feats/general-feats/raging-brutality/) (Is not affected by two handing but is multiplied on crit)
+	* [Hands of Valor](https://www.aonprd.com/FeatDisplay.aspx?ItemName=Hands%20of%20Valor)
+	* [Extra Feature](https://www.d20pfsrd.com/feats/general-feats/extra-feature)
 * Rage Powers
 	* [Come and Get Me!](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/come-and-get-me-ex/)
 	* [Unrestrained Rage](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/unrestrained-rage/) (Only portion where immune to paralysis while raging)
@@ -26,9 +32,6 @@ Martial Excellence aims to add various martial related features to Wrath of the 
 			* Gives +1 fort save, mobility and athletics as class skills, and kukri proficiency.
 
 # Currently Planned Content
-* Races
-	* Skinwalker
-		* Never added a race before, may just do the features and let users add them through toybox.
 * Feats
 	* [Broken Wing Gambit](https://www.d20pfsrd.com/feats/combat-feats/broken-wing-gambit-combat-teamwork)
 	* [Wounded Paw Gambit](https://www.d20pfsrd.com/feats/combat-feats/wounded-paw-gambit-combat-teamwork/)
