@@ -42,7 +42,6 @@ Martial Excellence aims to add various martial related features to Wrath of the 
 	* [Overbearing Advance](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/overbearing-advance-ex)
 	* [Spellbreaker](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/spellbreaker)
 	* [Superstition](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/superstition-ex)
-	* [Unrestrained Rage](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/unrestrained-rage/)
 	* [Witch Hunter](https://www.d20pfsrd.com/classes/core-classes/barbarian/rage-powers/paizo-rage-powers/witch-hunter-ex/)
 # Issues
 
