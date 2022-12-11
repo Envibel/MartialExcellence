@@ -13,6 +13,7 @@ using MartialExcellence.Util;
 using BlueprintCore.Blueprints.References;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints;
+using MartialExcellence.Races.Skinwalker;
 
 namespace MartialExcellence
 {
