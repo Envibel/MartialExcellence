@@ -159,7 +159,18 @@
 
   {
     "Key": "Skinwalker.Description",
-    "enGB": "This is the skinwalker description"
+    "enGB": "Skinwalkers resemble humans much of the time, but they possess the uncanny ability to transform into bestial humanoids who combine the most fearsome aspects of flesh and fur. Most people believe skinwalkers are half-breeds of lycanthropes, or that they share some slight version of the curse of those creatures. Skinwalker shamans say they are chosen by nature or the gods to be a bridge between the world of humanity and the animal world. The truth may lie somewhere between these two ideas. For indeed, skinwalkers are those with a lycanthrope crouching somewhere in the branches of their family tree. These distant progeny of monstrous werewolves and other creatures of the night have special talents unlike those of most civilized peoples, and they arise randomly among remote humanoid populations as well as within their own secretive sects. A pair of humans may give birth to a skinwalker—the dormant lycanthropic ancestry making itself known in a child neither beast nor human—or a pair of skinwalker parents may produce a skinwalker child, though these couplings can sometimes produce human children as well."
+  },
+
+  {
+    "Key": "Skinwalker.ChangeShapeRevert.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Revert"
+  },
+
+  {
+    "Key": "Skinwalker.ChangeShapeRevert.Description",
+    "enGB": "The benefits of change shape last until the skinwalker returns to her humanoid form as a swift action. A skinwalker must first return to her humanoid form before changing to bestial form again to change benefits. Different skinwalker heritages allow skinwalker characters to select from different sets of bestial features."
   },
 
   {
@@ -192,7 +203,7 @@
 
   {
     "Key": "Skinwalker.HeritageSelectionClassicStrength.Description",
-    "enGB": "The base skinwalker is merely the most common of its kind but there are those who’ve inherited a larger share of their ancestors’ animalistic beings, and in whom can be seen the traits of very specific types of lycanthropes. Whether the scions of wereboars, the grandchildren of werecrocodiles, or the distant progeny of wererats, these individuals possess stronger ties to their ancestors than other skinwalkers. \n Skinwalkers of uncertain heritage have a +2 racial bonus to Wisdom, a +2 racial bonus to Strength, a -2 penalty to Intelligence, a +2 bonus to Lore (Nature) checks. They can use INSERT SPELL HERE once per day using their Wisdom as their spell casting ability."
+    "enGB": "The base skinwalker is merely the most common of its kind but there are those who’ve inherited a larger share of their ancestors’ animalistic beings, and in whom can be seen the traits of very specific types of lycanthropes. Whether the scions of wereboars, the grandchildren of werecrocodiles, or the distant progeny of wererats, these individuals possess stronger ties to their ancestors than other skinwalkers. \n Skinwalkers of uncertain heritage have a +2 racial bonus to Wisdom, a +2 racial bonus to Strength, a -2 penalty to Intelligence, and a +2 bonus to Lore (Nature) checks. They can use Animal Aspect once per day using their Wisdom as their spell casting ability."
   },
 
   {
@@ -203,7 +214,7 @@
 
   {
     "Key": "Skinwalker.HeritageSelectionClassicDexterity.Description",
-    "enGB": "The base skinwalker is merely the most common of its kind but there are those who’ve inherited a larger share of their ancestors’ animalistic beings, and in whom can be seen the traits of very specific types of lycanthropes. Whether the scions of wereboars, the grandchildren of werecrocodiles, or the distant progeny of wererats, these individuals possess stronger ties to their ancestors than other skinwalkers. \n Skinwalkers of uncertain heritage have a +2 racial bonus to Wisdom, a +2 racial bonus to Dexterity, a -2 penalty to Intelligence, a +2 bonus to Lore (Nature) checks. They can use INSERT SPELL HERE once per day using their Wisdom as their spell casting ability."
+    "enGB": "The base skinwalker is merely the most common of its kind but there are those who’ve inherited a larger share of their ancestors’ animalistic beings, and in whom can be seen the traits of very specific types of lycanthropes. Whether the scions of wereboars, the grandchildren of werecrocodiles, or the distant progeny of wererats, these individuals possess stronger ties to their ancestors than other skinwalkers. \n Skinwalkers of uncertain heritage have a +2 racial bonus to Wisdom, a +2 racial bonus to Dexterity, a -2 penalty to Intelligence, and a +2 bonus to Lore (Nature) checks. They can use Animal Aspect once per day using their Wisdom as their spell casting ability."
   },
 
   {
@@ -214,7 +225,7 @@
 
   {
     "Key": "Skinwalker.HeritageSelectionClassicConstitution.Description",
-    "enGB": "The base skinwalker is merely the most common of its kind but there are those who’ve inherited a larger share of their ancestors’ animalistic beings, and in whom can be seen the traits of very specific types of lycanthropes. Whether the scions of wereboars, the grandchildren of werecrocodiles, or the distant progeny of wererats, these individuals possess stronger ties to their ancestors than other skinwalkers. \n Skinwalkers of uncertain heritage have a +2 racial bonus to Wisdom, a +2 racial bonus to Constitution, a -2 penalty to Intelligence, a +2 bonus to Lore (Nature) checks. They can use INSERT SPELL HERE once per day using their Wisdom as their spell casting ability."
+    "enGB": "The base skinwalker is merely the most common of its kind but there are those who’ve inherited a larger share of their ancestors’ animalistic beings, and in whom can be seen the traits of very specific types of lycanthropes. Whether the scions of wereboars, the grandchildren of werecrocodiles, or the distant progeny of wererats, these individuals possess stronger ties to their ancestors than other skinwalkers. \n Skinwalkers of uncertain heritage have a +2 racial bonus to Wisdom, a +2 racial bonus to Constitution, a -2 penalty to Intelligence, and a +2 bonus to Lore (Nature) checks. They can use Animal Aspect once per day using their Wisdom as their spell casting ability."
   },
 
   {
@@ -225,18 +236,7 @@
 
   {
     "Key": "Skinwalker.Heritage.Classic.ChangeShapeBase.Description",
-    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: 2 claw attacks that each deal 1d4 points of damage Darkvision to a range of 60 feet. +1 racial bonus to natural armor. These benefits last until the skinwalker returns to her humanoid form as a swift action. A skinwalker must first return to her humanoid form before changing to bestial form again to change benefits. Different skinwalker heritages allow skinwalker characters to select from different sets of bestial features."
-  },
-
-  {
-    "Key": "Skinwalker.Heritage.Ragebred.Name",
-    "ProcessTemplates": false,
-    "enGB": "Ragebred (Wereboar-Kin)"
-  },
-
-  {
-    "Key": "Skinwalker.Heritage.Ragebred.Description",
-    "enGB": "Wereboar-kin are known for their fiery tempers, wide stubborn streaks, and strong familial bonds. The ragebred’s tenacity and irrepressible expressiveness has also earned this race respect and a reputation as freedom fighters. Wereboar-kin are often ashamed of where their abilities come from and have no shortage of ill feelings for true wereboars, even if this hatred is mingled with martial respect. Wereboar-kin generally avoid large groups of people unless they feel confident of their own ability to buy, charm, or bully their way into power and respect. The ragebred who do live in busy social circles are those able to channel their strong emotions into far-reaching schemes, creative expression, or their professional crafts. Others choose the more common route of carving out a place where they hold power at the edge of civilization. More than one upstart liege has been a wereboar-kin who successfully created a place where he need not fear anyone’s judgment."
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor."
   },
 
   {
@@ -248,7 +248,7 @@
   {
     "Key": "Skinwalker.Heritage.Classic.ChangeShapeClaws.Description",
     "ProcessTemplates": false,
-    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: 2 claw attacks that each deal 1d4 points of damage Darkvision to a range of 60 feet. +1 racial bonus to natural armor."
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor."
   },
 
   {
@@ -260,7 +260,7 @@
   {
     "Key": "Skinwalker.Heritage.Classic.ChangeShapeArmor.Description",
     "ProcessTemplates": false,
-    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: 2 claw attacks that each deal 1d4 points of damage Darkvision to a range of 60 feet. +1 racial bonus to natural armor."
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor."
   },
 
   {
@@ -273,6 +273,88 @@
     "Key": "Skinwalker.Heritage.Classic.ChangeShapePerception.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.Name",
+    "ProcessTemplates": false,
+    "enGB": "Ragebred (Wereboar-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.Description",
+    "enGB": "Wereboar-kin are known for their fiery tempers, wide stubborn streaks, and strong familial bonds. The ragebred’s tenacity and irrepressible expressiveness has also earned this race respect and a reputation as freedom fighters. Wereboar-kin are often ashamed of where their abilities come from and have no shortage of ill feelings for true wereboars, even if this hatred is mingled with martial respect. Wereboar-kin generally avoid large groups of people unless they feel confident of their own ability to buy, charm, or bully their way into power and respect. The ragebred who do live in busy social circles are those able to channel their strong emotions into far-reaching schemes, creative expression, or their professional crafts. Others choose the more common route of carving out a place where they hold power at the edge of civilization. More than one upstart liege has been a wereboar-kin who successfully created a place where he need not fear anyone’s judgment.\n Ragebred skinwalkers have a +2 racial bonus to Strength, a +2 racial bonus to Constitution, a -2 penalty to Charisma, a +2 bonus to Lore (Nature) checks, and a +2 bonus to Perception checks. They can use Animal Aspect - Gorilla once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n +10 foot racial bonus to speed \n Gore attack that deals 1d6 points of damage \n 2 hoof attacks that each deal 1d4 points of damage \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeSpeed.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Speed"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeSpeed.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n +10 foot racial bonus to speed \n Gore attack that deals 1d6 points of damage \n 2 hoof attacks that each deal 1d4 points of damage \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeGore.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Gore"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeGore.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n +10 foot racial bonus to speed \n Gore attack that deals 1d6 points of damage \n 2 hoof attacks that each deal 1d4 points of damage \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeHooves.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Hooves"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeHooves.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n +10 foot racial bonus to speed \n Gore attack that deals 1d6 points of damage \n 2 hoof attacks that each deal 1d4 points of damage \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeScent.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Scent"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Ragebred.ChangeShapeScent.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n +10 foot racial bonus to speed \n Gore attack that deals 1d6 points of damage \n 2 hoof attacks that each deal 1d4 points of damage \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "ExtraFeature.Name",
+    "ProcessTemplates": false,
+    "enGB": "Extra Feature"
+  },
+
+  {
+    "Key": "ExtraFeature.Description",
+    "ProcessTemplates": false,
+    "enGB": "When you change shape to your bestial form, you may choose one additional feature from those listed in your shapechange ability and gain that benefit while in bestial form. \n You can select this feat multiple times. However, you gain no benefit from being able to select for change shape features than you have change shape features."
   },
 
   {

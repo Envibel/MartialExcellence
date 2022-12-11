@@ -61,6 +61,10 @@ namespace MartialExcellence
                     }
                     Initialized = true;
 
+                    Logger.Info("Configuring race blueprints.");
+                    // Configure Races
+                    Skinwalker.Configure();
+
                     Logger.Info("Configuring feat blueprints.");
                     // Configure Feats
                     DazingAssault.Configure();
@@ -69,11 +73,7 @@ namespace MartialExcellence
                     ViciousStomp.Configure();
                     RagingBrutality.Configure();
                     HandsOfValor.Configure();
-
-                    Logger.Info("Configuring race blueprints.");
-                    // Configure Races
-                    Skinwalker.Configure();
-
+                    ExtraFeature.Configure();
       
                     Logger.Info("Configuring rage power blueprints.");
                     // Configure Rage Powers

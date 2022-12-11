@@ -49,6 +49,7 @@ namespace MartialExcellence.Util
         internal const string HandsOfValorAbilityOthersGuid = "a6bab4dc-d958-453d-bec3-d8934765981a";
         internal const string HandsOfValorAbilityResourceGuid = "4c9951d8-13d3-45c8-9578-10a8720bb605";
 
+        internal const string ExtraFeatureGuid = "9067dd74-b878-44c2-9211-ec0759e77161";
 
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
@@ -71,14 +72,14 @@ namespace MartialExcellence.Util
         internal const string SkinwalkerHeritageSelectionGuid = "9fea524c-cc6e-40fc-b789-d4013bf81cdd";
         internal const string SkinwalkerAnimalAspectGuid = "1437cfdf-4cae-4e15-86a3-ca5faa24d75d";
         internal const string SkinwalkerSpellLikeResourceGuid = "1b3fc415-5c97-4910-8e2a-ba9a1a3307a9";
-
+        internal const string SkinwalkerChangeShapeResourceGuid = "810a4c50-2070-4c45-97c7-d6111c90ed50";
+        internal const string SkinwalkerChangeShapeRevertResourceGuid = "70f3bbcf-1692-457c-81bc-b10d710f63ee";
 
 
         internal const string SkinwalkerHeritageClassicGuid = "0185983d-7b7e-4724-91f9-f75295c0a387";
         internal const string SkinwalkerHeritageClassicChangeShapeAbilityGuid = "327d9ff5-b9da-42f5-8d10-cc63345fcb4c";
         internal const string SkinwalkerHeritageClassicChangeShapeRevertAbilityGuid = "8c689f2c-5860-4dad-97df-f75a6639879b";
-        internal const string SkinwalkerHeritageClassicChangeShapeResourceGuid = "810a4c50-2070-4c45-97c7-d6111c90ed50";
-        internal const string SkinwalkerHeritageClassicChangeShapeRevertResourceGuid = "70f3bbcf-1692-457c-81bc-b10d710f63ee";
+
 
         internal const string SkinwalkerHeritageClassicChangeShapeClawsAbilityGuid = "cbc08a54-7740-48bc-a509-22809f9a8f42";
         internal const string SkinwalkerHeritageClassicChangeShapeClawsBuffGuid = "e1efebee-5927-46f5-b52a-7673f73b93bf";
@@ -90,12 +91,22 @@ namespace MartialExcellence.Util
         internal const string SkinwalkerHeritageSelectionClassicDexterityGuid = "c0183f17-138d-41a5-8e08-3b5a0e224215";
         internal const string SkinwalkerHeritageSelectionClassicConstitutionGuid = "5067f74a-7d11-45cd-ac5e-8aef2af23c7d";
 
-
-
-
+        
 
         internal const string SkinwalkerHeritageRagebredGuid = "da76b92d-17c3-4121-987e-e2dd6e21fc9b";
+        internal const string SkinwalkerHeritageRagebredChangeShapeAbilityGuid = "4da8258e-293b-484b-a4db-f62bc0c47f9c";
+        internal const string SkinwalkerHeritageRagebredChangeShapeRevertAbilityGuid = "7c49bde1-8690-4ca0-8a94-4d79c7a7e509";
+        internal const string SkinwalkerAnimalAspectGorillaGuid = "1ab9cb86-0266-46b3-b58c-634b1ba04b6a";
 
+
+        internal const string SkinwalkerHeritageRagebredChangeShapeSpeedAbilityGuid = "486f52df-7d29-4831-88c2-96b6bbbbe457";
+        internal const string SkinwalkerHeritageRagebredChangeShapeSpeedBuffGuid = "002949af-f328-4de4-84d7-a975b8659b29";
+        internal const string SkinwalkerHeritageRagebredChangeShapeGoreAbilityGuid = "99c858cc-6232-474e-9faa-ef6e87108cb7";
+        internal const string SkinwalkerHeritageRagebredChangeShapeGoreBuffGuid = "f737f2ac-39a9-4379-800d-76e98919e1fc";
+        internal const string SkinwalkerHeritageRagebredChangeShapeHoovesAbilityGuid = "23a7c4c9-546d-483b-a576-86a160472f98";
+        internal const string SkinwalkerHeritageRagebredChangeShapeHoovesBuffGuid = "0e1caa58-e4a5-4c97-88f5-37282ff38a83";
+        internal const string SkinwalkerHeritageRagebredChangeShapeScentAbilityGuid = "3b5ece22-a4f1-495e-bae9-af71a245efaa";
+        internal const string SkinwalkerHeritageRagebredChangeShapeScentBuffGuid = "9b6f5e3c-9e81-4ac5-8d60-1d6d0197fb0c";
 
 
 
