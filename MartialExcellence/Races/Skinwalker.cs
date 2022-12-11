@@ -554,7 +554,9 @@ namespace MartialExcellence.Races
                 .SetSelectableRaceStat(false)
                 .SetFeatures(hertiageSelection)
                 .SetIcon(ClassicIcon)
-                .Configure(delayed: false);
+                .SetRaceId(Race.HalfElf)
+                .Configure(delayed: true);
+
 
             // Add race to race list
             var raceRef = race.ToReference<BlueprintRaceReference>();
