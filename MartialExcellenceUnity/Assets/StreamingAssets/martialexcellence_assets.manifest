@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2045677502
+CRC: 2268190446
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d36da7de11b64cfc997de71b37a7bcbd
+    Hash: 3602972f1851d3721ac98fe71386ff5c
   TypeTreeHash:
     serializedVersion: 2
     Hash: c90fc19e2679e5295d10bd00f33cb4c3
@@ -23,6 +23,7 @@ Assets:
 - Assets/Icons/skinwalkerheritage.jpg
 - Assets/Icons/changeshapeclaws.jpg
 - Assets/Icons/changeshape.jpg
+- Assets/Icons/changeshapeinitiative.jpg
 - Assets/Icons/changeshapespeed.jpg
 - Assets/Icons/changeshapegroundimmunity.jpg
 - Assets/Icons/dazingassault.jpg
@@ -31,12 +32,14 @@ Assets:
 - Assets/Icons/spirittotem.jpg
 - Assets/Icons/changeshaperevert.jpg
 - Assets/Icons/changeshapescent.jpg
+- Assets/Icons/skinwalkerscaleheart.jpg
 - Assets/Icons/changeshapeathletics.jpg
 - Assets/Icons/changeshapegore.jpg
 - Assets/Icons/changeshapearmor.jpg
 - Assets/Icons/skinwalkerbloodmarked.jpg
 - Assets/Icons/unrestrainedrage.jpg
 - Assets/Icons/comeandgetme.jpg
+- Assets/Icons/changeshapeferocity.jpg
 - Assets/Icons/skinwalkercoldborn.jpg
 - Assets/Icons/handsofvalor.jpg
 - Assets/Icons/skinwalkerclassic.jpg

@@ -486,6 +486,76 @@
   },
 
   {
+    "Key": "Skinwalker.Heritage.Scaleheart.Name",
+    "ProcessTemplates": false,
+    "enGB": "Scaleheart (Werecrocodile-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.Description",
+    "enGB": "Werecrocodile-kin are the most common skinwalkers. Physically, they are thick-skinned and usually sluggish unless engaged in combat. They tend to be ruthless but patient. All are natural swimmers. In a pattern stretching all the way back to scalehearts’ counterparts in Arcadia, scaleheart culture respects nothing so much as the ability to demonstrate power over others, most often physically but also through cunning and magic. Werecrocodile-kin are renowned for their surprising and violent displays of dominance they have an equally strong reputation for proving their superiority by manipulating and seducing prominent humans. Not as powerful or as solitary as true werecrocodiles, scalehearts prefer to form their own small waterside communities when they do collaborate. \nScaleheart skinwalkers have a +2 racial bonus to Constitution, a +2 racial bonus to Strength, a -2 penalty to Wisdom, a +2 bonus to Stealth checks, and a +2 bonus to Lore(Nature) checks. They can use Scare once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeArmor.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Armor"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeArmor.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeInitiative.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Initiative"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeInitiative.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeFerocity.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Ferocity"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeFerocity.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"
