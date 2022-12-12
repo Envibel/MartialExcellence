@@ -556,6 +556,76 @@
   },
 
   {
+    "Key": "Skinwalker.Heritage.Aerieborn.Name",
+    "ProcessTemplates": false,
+    "enGB": "Aerieborn (Wereraptor-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.Description",
+    "enGB": "Skinwalkers descended from wereraptors, aerieborn lack beaks, but have feathers in their bestial form. \nAerieborn skinwalkers have a +2 racial bonus to Wisdom, a +2 racial bonus to Dexterity, a -2 penalty to Charisma, a +2 bonus to Perception checks, and a +2 bonus to Persuasion checks when used for diplomacy. They can use Feather Step once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to perception \n 2 Talon attacks that deal 1d4 damage \n +1 dodge bonus to AC."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to perception \n 2 Talon attacks that deal 1d4 damage \n +1 dodge bonus to AC."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapePerception.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Perception"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapePerception.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to perception \n 2 Talon attacks that deal 1d4 damage \n +1 dodge bonus to AC."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeTalons.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Talons"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeTalons.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to perception \n 2 Talon attacks that deal 1d4 damage \n +1 dodge bonus to AC."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeDodge.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Dodge"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Aerieborn.ChangeShapeDodge.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to perception \n 2 Talon attacks that deal 1d4 damage \n +1 dodge bonus to AC."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"
