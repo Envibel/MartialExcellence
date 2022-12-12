@@ -77,13 +77,15 @@ namespace MartialExcellence.Races.Skinwalker
 
             Heritages.SkinwalkerClassic.Configure();
             Heritages.SkinwalkerRagebred.Configure();
+            Heritages.SkinwalkerBloodmarked.Configure();
 
             var heritageClassic = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageClassicGuid);
             var heritageRagebred = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageRagebredGuid);
+            var heritageBloodmarked = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageBloodmarkedGuid);
 
 
 
-            Blueprint<BlueprintFeatureReference>[] heritageList = new Blueprint<BlueprintFeatureReference>[] { heritageClassic, heritageRagebred };
+            Blueprint<BlueprintFeatureReference>[] heritageList = new Blueprint<BlueprintFeatureReference>[] { heritageClassic, heritageRagebred, heritageBloodmarked };
 
             var hertiageSelection =
                 FeatureSelectionConfigurator.New(SkinwalkerHeritageSelectionName, Guids.SkinwalkerHeritageSelectionGuid)

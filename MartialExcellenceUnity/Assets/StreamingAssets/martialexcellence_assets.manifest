@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1955034530
+CRC: 4015662339
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 30995a3b24c67ec1fc3175cb96eae6a6
+    Hash: 79bf94afe419d9eec3ae01dbc2ec1691
   TypeTreeHash:
     serializedVersion: 2
     Hash: c90fc19e2679e5295d10bd00f33cb4c3
@@ -15,6 +15,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Icons/changeshapebite.jpg
 - Assets/Icons/changeshapehooves.jpg
 - Assets/Icons/quillen.jpg
 - Assets/Icons/viciousstomp.jpg
@@ -23,6 +24,7 @@ Assets:
 - Assets/Icons/changeshapeclaws.jpg
 - Assets/Icons/changeshape.jpg
 - Assets/Icons/changeshapespeed.jpg
+- Assets/Icons/changeshapegroundimmunity.jpg
 - Assets/Icons/dazingassault.jpg
 - Assets/Icons/changeshapeperception.jpg
 - Assets/Icons/shieldslam.jpg
@@ -31,6 +33,7 @@ Assets:
 - Assets/Icons/changeshapescent.jpg
 - Assets/Icons/changeshapegore.jpg
 - Assets/Icons/changeshapearmor.jpg
+- Assets/Icons/skinwalkerbloodmarked.jpg
 - Assets/Icons/unrestrainedrage.jpg
 - Assets/Icons/comeandgetme.jpg
 - Assets/Icons/handsofvalor.jpg

@@ -346,6 +346,76 @@
   },
 
   {
+    "Key": "Skinwalker.Heritage.Bloodmarked.Name",
+    "ProcessTemplates": false,
+    "enGB": "Bloodmarked (Werebat-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.Description",
+    "enGB": "Bloodmarked, like werebats, are generally communal and often defer readily to their superiors within their flocks or even other leaders or employers. They tend to be gregarious yet savage, and enjoy using their unassuming natural forms to trick others before revealing their true bestial powers. Bloodmarked reveal their human ancestry in their ability to break from the group, make their own choices, and associate with humans without trying to force their way of life upon them, although troublemakers are strongly frowned upon and find it hard to get any other werebat-kin to take their side if in opposition to the group.\n Bloodmarked skinwalkers have a +2 racial bonus to Dexterity, a +2 racial bonus to Intelligence, a -2 penalty to Wisdom, a +2 bonus to Mobility checks, and a +2 bonus to Perception checks. They can use Invisibility once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus on Perception checks \n Scent to a range of 30 feet \n Immunity to ground based effects."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus on Perception checks \n Scent to a range of 30 feet \n Immunity to ground based effects."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapePerception.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Perception"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapePerception.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus on Perception checks \n Scent to a range of 30 feet \n Immunity to ground based effects."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeGroundImmunity.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Ground Immunity"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeGroundImmunity.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus on Perception checks \n Scent to a range of 30 feet \n Immunity to ground based effects."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeScent.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Scent"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Bloodmarked.ChangeShapeScent.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus on Perception checks \n Scent to a range of 30 feet \n Immunity to ground based effects."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <!--
@@ -84,10 +84,6 @@
     <None Update="LocalizedStrings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Races\Skinwalker\Heritages\" />
   </ItemGroup>
 
   <!-- Generates Assembly-CSharp_public.dll -->
