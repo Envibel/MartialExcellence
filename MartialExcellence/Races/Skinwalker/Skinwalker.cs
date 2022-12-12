@@ -83,7 +83,7 @@ namespace MartialExcellence.Races.Skinwalker
             Heritages.SkinwalkerAerieborn.Configure();
             Heritages.SkinwalkerNightskulk.Configure();
             Heritages.SkinwalkerSeascarred.Configure();
-            //Heritages.SkinwalkerFanglord.Configure();
+            Heritages.SkinwalkerFanglord.Configure();
             //Heritages.SkinwalkerWitchwolf.Configure();
 
             var heritageClassic = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageClassicGuid);
@@ -94,7 +94,7 @@ namespace MartialExcellence.Races.Skinwalker
             var heritageAerieborn = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageAeriebornGuid);
             var heritageNightskulk = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageNightskulkGuid);
             var heritageSeascarred = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageSeascarredGuid);
-            //var heritageFanglord = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageFanglordGuid);
+            var heritageFanglord = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageFanglordGuid);
             //var heritageWitchwolf = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageWitchwolfGuid);
 
 
@@ -109,7 +109,7 @@ namespace MartialExcellence.Races.Skinwalker
                 heritageAerieborn,
                 heritageNightskulk,
                 heritageSeascarred,
-                //heritageFanglord,
+                heritageFanglord,
                 //heritageWitchwolf
             };
 

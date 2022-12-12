@@ -766,6 +766,76 @@
   },
 
   {
+    "Key": "Skinwalker.Heritage.Fanglord.Name",
+    "ProcessTemplates": false,
+    "enGB": "Fanglord (Weretiger-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.Description",
+    "enGB": "Weretiger-kin are known for their fickle attitudes and unpredictable behavior. Usually, a fanglord makes his living by intimidation, cutthroat business dealings, political ploys, and military ventures. Very much like weretigers, they rarely congregate with others of their kind except as mated pairs or one or two parents with a few children, although they sometimes agree to form oligarchic arrangements of mutual protection with neighboring fanglords or weretigers when each of them can respect the other’s strength. They often have aristocratic connections or the charm to fake it, and are happy to settle in affluent areas, where one fanglord typically claims dominion over anything from a small neighborhood to a large city district.\nWeretiger-kin tend to be exceptionally proud of their heritage and confident to the point of hubris regarding their authority over not only humans, but also animals.\nAlthough usually quite capable, fanglords are not opposed to waiting for just the right moment to spring a plan or strike against an enemy, making sure they can act with overwhelming effectiveness and completely negate the chance of an opponent fighting back. As a result, they make impeccable assassins and frustrating political enemies. Weretiger-kin often have large eyes, long noses, and sharp cheekbones. \nFanglord skinwalkers have a +2 racial bonus to Dexterity, a +2 racial bonus to Charisma, a -2 penalty to Wisdom, a +2 bonus to Perception checks, and a +2 bonus to Mobility checks. They can use Magic Fang once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +10 racial bonus to speed \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +10 racial bonus to speed \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeClaws.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Claws"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeClaws.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +10 racial bonus to speed \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeSpeed.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Speed"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeSpeed.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +10 racial bonus to speed \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeScent.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Scent"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Fanglord.ChangeShapeScent.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +10 racial bonus to speed \n Scent to a range of 30 feet."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"
