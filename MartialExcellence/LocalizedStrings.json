@@ -416,6 +416,76 @@
   },
 
   {
+    "Key": "Skinwalker.Heritage.Coldborn.Name",
+    "ProcessTemplates": false,
+    "enGB": "Coldborn (Werebear-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.Description",
+    "enGB": "Werebear-kin are known and respected as defenders of the wilds. They tend to carve out niches as woodland guides, rangers, and recluses to whom humans can turn for guidance in the wilderness.\nThey are called coldborn because they often become torpid and withdrawn during the winter months unless they have matters to attend to, and they resume their typical demeanors with renewed energy at winter’s end.\nAlthough they often avoid large settlements, coldborn are known to defy their ursine urges in favor of their humanlike desire for community, either forming small, intimate communities of their own (consisting of a few families or a chosen family of good friends) or arranging annual or seasonal gatherings to keep in touch with their fellows from all across the area. \nColdborn skinwalkers have a +2 racial bonus to Constitution, a +2 racial bonus to Wisdom, a -2 penalty to Charisma, a +2 bonus to Athletics checks, and a +2 bonus to Lore(Nature) checks. They can use Summon Nature Ally III once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +4 racial bonus on Athletics checks \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +4 racial bonus on Athletics checks \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeClaws.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Claws"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeClaws.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +4 racial bonus on Athletics checks \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeAthletics.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Athletics"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeAthletics.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +4 racial bonus on Athletics checks \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeScent.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Scent"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Coldborn.ChangeShapeScent.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +4 racial bonus on Athletics checks \n Scent to a range of 30 feet."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"
