@@ -644,7 +644,7 @@
 
   {
     "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeBase.Description",
-    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates \n Scent to a range of 30 feet."
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates. Fortitude save (DC 10 + 1/2 creature''s HD + creature''s Con modifier) negates the effect \n Scent to a range of 30 feet."
   },
 
   {
@@ -693,6 +693,76 @@
     "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeScent.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates. Fortitude save (DC 10 + 1/2 creature''s HD + creature''s Con modifier) negates the effect \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.Name",
+    "ProcessTemplates": false,
+    "enGB": "Seascarred (Wereshark-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.Description",
+    "enGB": "Much like lions are seen as kings of the savanna, sharks are kings of the sea, and so seascarred—those skinwalkers descended from weresharks—often think of themselves as having noble blood.\nFittingly, wereshark-kin are often related to island nobility and shamans, and thus many expect others to defer to their often-blunt methods and habits. Like weresharks, they tend to be singleminded and do not like to be questioned. Although some are selfish and others heroic, most seascarred prefer to live relatively simple lives consisting primarily of hunting and eating. Many greedy or unscrupulous wereshark-kin make their way as pirates, simply taking what they want and letting their cowed peers deal with complications.\nWereshark-kin prefer to be their own masters, but are willing to follow obviously more powerful leaders. \nSeascarred culture tells them that they are natural lords of the water, leading many wereshark-kin communities and loners alike to defend chosen stretches of coastline against all intruders and to live in harmony with the sea under the guidance of a druid or shaman. \nSeascarred skinwalkers have a +2 racial bonus to Wisdom, a +2 racial bonus to Constitution, a -2 penalty to Intelligence, a +2 bonus to Perception checks, and a +2 bonus to Athletics checks. They can use Resist Energy - Cold once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +2 racial bonus to initiative \n Ferocity \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +2 racial bonus to initiative \n Ferocity \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeInitiative.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Initiative"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeInitiative.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +2 racial bonus to initiative \n Ferocity \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeFerocity.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Ferocity"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeFerocity.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +2 racial bonus to initiative \n Ferocity \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeScent.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Scent"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Seascarred.ChangeShapeScent.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +2 racial bonus to initiative \n Ferocity \n Scent to a range of 30 feet."
   },
 
   {

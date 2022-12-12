@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2388473902
+CRC: 3464842462
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 671ca91d961eb517619b773daeb4fb79
+    Hash: 49a37f6925f648b905e86892ad11a808
   TypeTreeHash:
     serializedVersion: 2
     Hash: c90fc19e2679e5295d10bd00f33cb4c3
@@ -52,4 +52,5 @@ Assets:
 - Assets/Icons/skinwalkerragebred.jpg
 - Assets/Icons/changeshapedodge.jpg
 - Assets/Icons/handsofvalorself.jpg
+- Assets/Icons/skinwalkerseascarred.jpg
 Dependencies: []

@@ -82,6 +82,9 @@ namespace MartialExcellence.Races.Skinwalker
             Heritages.SkinwalkerScaleheart.Configure();
             Heritages.SkinwalkerAerieborn.Configure();
             Heritages.SkinwalkerNightskulk.Configure();
+            Heritages.SkinwalkerSeascarred.Configure();
+            //Heritages.SkinwalkerFanglord.Configure();
+            //Heritages.SkinwalkerWitchwolf.Configure();
 
             var heritageClassic = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageClassicGuid);
             var heritageRagebred = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageRagebredGuid);
@@ -90,10 +93,25 @@ namespace MartialExcellence.Races.Skinwalker
             var heritageScaleheart = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageScaleheartGuid);
             var heritageAerieborn = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageAeriebornGuid);
             var heritageNightskulk = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageNightskulkGuid);
+            var heritageSeascarred = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageSeascarredGuid);
+            //var heritageFanglord = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageFanglordGuid);
+            //var heritageWitchwolf = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageWitchwolfGuid);
 
 
 
-            Blueprint<BlueprintFeatureReference>[] heritageList = new Blueprint<BlueprintFeatureReference>[] { heritageClassic, heritageRagebred, heritageBloodmarked, heritageColdborn, heritageScaleheart, heritageAerieborn, heritageNightskulk };
+            Blueprint<BlueprintFeatureReference>[] heritageList = new Blueprint<BlueprintFeatureReference>[] 
+            { 
+                heritageClassic,
+                heritageRagebred,
+                heritageBloodmarked,
+                heritageColdborn,
+                heritageScaleheart,
+                heritageAerieborn,
+                heritageNightskulk,
+                heritageSeascarred,
+                //heritageFanglord,
+                //heritageWitchwolf
+            };
 
             var hertiageSelection =
                 FeatureSelectionConfigurator.New(SkinwalkerHeritageSelectionName, Guids.SkinwalkerHeritageSelectionGuid)
