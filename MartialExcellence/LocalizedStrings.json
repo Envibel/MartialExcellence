@@ -626,6 +626,76 @@
   },
 
   {
+    "Key": "Skinwalker.Heritage.Nightskulk.Name",
+    "ProcessTemplates": false,
+    "enGB": "Nightskulk (Wererat-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.Description",
+    "enGB": "Wererat-kin are common in urban areas, and like wererats, they usually rely on their stealth and cunning to get by in those metropolitan centers where they are persecuted. Many rogues and scoundrels think of a trace of rodent blood as a useful advantage, and some even falsely brag of having this trait to earn a quick reputation and intimidate rivals. True nightskulks, however, know that spreading such information only invites despair, for of all the skinwalkers nightskulks are perhaps the most universally despised. \nUnlike other skinwalkers, even large nightskulk communities often draw their culture almost completely from the surrounding human society, assimilating at the cost of losing their ancient skinwalker traditions. \nNightskulk skinwalkers have a +2 racial bonus to Intelligence, a +2 racial bonus to Dexterity, a -2 penalty to Strength, a +2 bonus to Stealth checks, and a +2 bonus to Lore(Nature) checks. They can use Animal Aspect - Raccoon once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates. Fortitude save (DC 10 + 1/2 creature''s HD + creature''s Con modifier) negates the effect \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeAthletics.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Athletics"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeAthletics.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates. Fortitude save (DC 10 + 1/2 creature''s HD + creature''s Con modifier) negates the effect \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeDistraction.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Distraction"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeDistraction.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates. Fortitude save (DC 10 + 1/2 creature''s HD + creature''s Con modifier) negates the effect \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeScent.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Scent"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Nightskulk.ChangeShapeScent.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +4 racial bonus to Athletics \n Distraction, except only the first hit with a natural attack per round, and sickens instead of nauseates. Fortitude save (DC 10 + 1/2 creature''s HD + creature''s Con modifier) negates the effect \n Scent to a range of 30 feet."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"

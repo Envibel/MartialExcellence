@@ -81,6 +81,7 @@ namespace MartialExcellence.Races.Skinwalker
             Heritages.SkinwalkerColdborn.Configure();
             Heritages.SkinwalkerScaleheart.Configure();
             Heritages.SkinwalkerAerieborn.Configure();
+            Heritages.SkinwalkerNightskulk.Configure();
 
             var heritageClassic = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageClassicGuid);
             var heritageRagebred = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageRagebredGuid);
@@ -88,10 +89,11 @@ namespace MartialExcellence.Races.Skinwalker
             var heritageColdborn = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageColdbornGuid);
             var heritageScaleheart = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageScaleheartGuid);
             var heritageAerieborn = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageAeriebornGuid);
+            var heritageNightskulk = BlueprintTool.Get<BlueprintFeature>(Guids.SkinwalkerHeritageNightskulkGuid);
 
 
 
-            Blueprint<BlueprintFeatureReference>[] heritageList = new Blueprint<BlueprintFeatureReference>[] { heritageClassic, heritageRagebred, heritageBloodmarked, heritageColdborn, heritageScaleheart, heritageAerieborn };
+            Blueprint<BlueprintFeatureReference>[] heritageList = new Blueprint<BlueprintFeatureReference>[] { heritageClassic, heritageRagebred, heritageBloodmarked, heritageColdborn, heritageScaleheart, heritageAerieborn, heritageNightskulk };
 
             var hertiageSelection =
                 FeatureSelectionConfigurator.New(SkinwalkerHeritageSelectionName, Guids.SkinwalkerHeritageSelectionGuid)
