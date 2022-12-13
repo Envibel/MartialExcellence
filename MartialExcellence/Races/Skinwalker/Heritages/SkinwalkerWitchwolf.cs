@@ -37,8 +37,6 @@ namespace MartialExcellence.Races.Skinwalker.Heritages
 {
     class SkinwalkerWitchwolf
     {
-        private static readonly string SkinwalkerMagicFangName = "SkinwalkerMagicFang";
-
         private static readonly string SkinwalkerHeritageWitchwolfName = "SkinwalkerHeritageWitchwolf";
         private static readonly string SkinwalkerHeritageWitchwolfChangeShapeBaseName = "SkinwalkerHeritageWitchwolfChangeShapeBase";
         private static readonly string SkinwalkerHeritageWitchwolfChangeShapeRevertName = "SkinwalkerHeritageWitchwolfChangeShapeRevert";
