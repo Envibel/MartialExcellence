@@ -211,6 +211,19 @@ namespace MartialExcellence.Util
         internal const string SkinwalkerHeritageFanglordChangeShapeScentAbilityGuid = "0eb43ab6-91c4-4df5-bcd9-af6c39f7564c";
         internal const string SkinwalkerHeritageFanglordChangeShapeScentBuffGuid = "fcf24a86-f11b-4034-b949-03fb197527d6";
 
+        internal const string SkinwalkerHeritageWitchwolfGuid = "37c076b7-0a61-49bb-a9fb-3f7c2f490f37";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeAbilityGuid = "214b4b4f-f640-4c4e-82d9-48f51dfeb924";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeRevertAbilityGuid = "600e4b25-bb2c-4eec-a12c-ab45c652c05f";
+
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeBiteAbilityGuid = "f76a8923-fa4a-4e42-863b-f4a28f98e68a";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeBiteBuffGuid = "05a208d8-e800-4c46-900a-7fa50ec0f052";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeClawsAbilityGuid = "31d7af41-71ba-4774-9564-a6401c78f02f";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeClawsBuffGuid = "5af4e9bb-d25a-496b-bb3b-eda44e80ef0c";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeSavingThrowsAbilityGuid = "92681b45-ff20-4c37-ad40-b23a801554f1";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeSavingThrowsBuffGuid = "2aa0a76c-a0b3-49b2-9611-1cdfa7f83442";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeScentAbilityGuid = "6c2f1534-f690-44e8-b9d2-376629cdf58c";
+        internal const string SkinwalkerHeritageWitchwolfChangeShapeScentBuffGuid = "474a6911-2977-47e7-9cab-73c459c1c550";
+
         #endregion
 
         #region RagePowers

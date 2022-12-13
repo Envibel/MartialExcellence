@@ -836,6 +836,76 @@
   },
 
   {
+    "Key": "Skinwalker.Heritage.Witchwolf.Name",
+    "ProcessTemplates": false,
+    "enGB": "Witchwolf (Werewolf-Kin)"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.Description",
+    "enGB": "Werewolf-kin are found in many areas, ranging from misty moors to dark alleys of bustling cities, and theirs is perhaps the most common visible skinwalker heritage to be found throughout the Inner Sea region and beyond.\nThey often dwell with werewolves or others of their kind in small, isolated settlements that resound with howls on the night of the full moon. Many werewolves and witchwolves live in seminomadic bands as traders, mystics, adventurers, or entertainers, allowing them to wreak havoc in remote settlements before slipping off into the darkness to escape the subsequent suspicion and hostility of townsfolk. Most such bands include only werewolves or only werewolf-kin, but occasionally one group adopts a member of the other sort out of circumstance or convenience, particularly if the two share common blood.\nWerewolf-kin generally have prominent eyebrows that grow together, long index fingers, or wild hair that seems impossible to tame. Witchwolf packs are often led by witches trained in a tradition of curses and transformation tied closely to the original curse of lycanthropy; these witches are also usually the most powerful members of their packs, though exceptions exist where a witch leads with the aid of a favored ally of incredible strength. Because werewolf-kin cannot recruit ordinary humans the way werewolves can, they tend to be more cautious and maintain closer bonds with their fellows than true werewolves usually do, and their bands typically consist of only one or a few extended families or possibly longtime friends. \nWitchwolf skinwalkers have a +2 racial bonus to Constitution, a +2 racial bonus to Wisdom, a -2 penalty to Intelligence, a +2 bonus to Perception checks, and a +2 bonus to Lore(Nature) checks. They can use Magic Fang once per day using their Wisdom as their spell casting ability."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeBase.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeBase.Description",
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +2 racial bonus to all saving throws \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeBite.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Bite"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeBite.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +2 racial bonus to all saving throws \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeClaws.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Claws"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeClaws.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +2 racial bonus to all saving throws \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeSavingThrows.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Saving Throws"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeSavingThrows.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +2 racial bonus to all saving throws \n Scent to a range of 30 feet."
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeScent.Name",
+    "ProcessTemplates": false,
+    "enGB": "Change Shape - Scent"
+  },
+
+  {
+    "Key": "Skinwalker.Heritage.Witchwolf.ChangeShapeScent.Description",
+    "ProcessTemplates": false,
+    "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n 2 claw attacks that each deal 1d4 points of damage \n +10 racial bonus to speed \n Scent to a range of 30 feet."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"
