@@ -15,6 +15,15 @@ Martial Excellence aims to add various martial related features to Wrath of the 
 	* [Skinwalker](https://www.d20pfsrd.com/races/other-races/more-races/standard-races-1-10-rp/skinwalkers-10-rp/)
 		* Classic
 		* Ragebred
+		* Bloodmarked
+		* Coldborn
+		* Scaleheart
+		* Nightskulk
+		* Seascarred
+		* Fanglord
+		* Witchwolf
+		* Aerieborn
+	* [Orc](https://www.d20pfsrd.com/races/other-races/featured-races/arg-orc/)
 * Feats
 	* [Dazing Assault](https://www.d20pfsrd.com/feats/combat-feats/dazing-assault-combat/)
 	* [Stunning Assault](https://www.d20pfsrd.com/feats/combat-feats/stunning-assault-combat/)
