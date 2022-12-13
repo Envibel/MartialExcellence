@@ -14,6 +14,7 @@ using BlueprintCore.Blueprints.References;
 using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints;
 using MartialExcellence.Races.Skinwalker;
+using MartialExcellence.Races.Orc;
 
 namespace MartialExcellence
 {
@@ -65,6 +66,7 @@ namespace MartialExcellence
                     Logger.Info("Configuring race blueprints.");
                     // Configure Races
                     Skinwalker.Configure();
+                    Orc.Configure();
 
                     Logger.Info("Configuring feat blueprints.");
                     // Configure Feats

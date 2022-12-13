@@ -224,6 +224,10 @@ namespace MartialExcellence.Util
         internal const string SkinwalkerHeritageWitchwolfChangeShapeScentAbilityGuid = "6c2f1534-f690-44e8-b9d2-376629cdf58c";
         internal const string SkinwalkerHeritageWitchwolfChangeShapeScentBuffGuid = "474a6911-2977-47e7-9cab-73c459c1c550";
 
+        internal const string OrcGuid = "075986af-9c5d-4a23-849b-d131a434d6c1";
+        internal const string OrcFerocityGuid = "1d7e5416-0e19-4229-82cb-d61f3259119a";
+
+
         #endregion
 
         #region RagePowers

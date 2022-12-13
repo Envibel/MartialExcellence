@@ -906,6 +906,30 @@
   },
 
   {
+    "Key": "Orc.Name",
+    "ProcessTemplates": false,
+    "enGB": "Orc"
+  },
+
+  {
+    "Key": "Orc.Description",
+    "ProcessTemplates": false,
+    "enGB": "Orcs are aggressive, callous, and domineering. Bullies by nature, they respect strength and power as the highest virtues. On an almost instinctive level, orcs believe they are entitled to anything they want unless someone stronger can stop them from seizing it. They rarely exert themselves off the battlefield except when forced to do so; this attitude stems not just from laziness but also from an ingrained belief that work should trickle down through the pecking order until it falls upon the shoulders of the weak. They take slaves from other races, orc men brutalize orc women, and both abuse children and elders, on the grounds that anyone too feeble to fight back deserves little more than a life of suffering. Surrounded at all times by bitter enemies, orcs cultivate an attitude of indifference to pain, vicious tempers, and a fierce willingness to commit unspeakable acts of vengeance against anyone who dares to defy them."
+  },
+
+  {
+    "Key": "Orc.Ferocity.Name",
+    "ProcessTemplates": false,
+    "enGB": "Ferocity"
+  },
+
+  {
+    "Key": "Orc.Ferocity.Description",
+    "ProcessTemplates": false,
+    "enGB": "Orcs possess the ferocity ability which allows them to remain conscious and continue fighting even if their hit point totals fall below 0. Orcs are still staggered at 0 hit points or lower and lose 1 hit point each round as normal."
+  },
+
+  {
     "Key": "ExtraFeature.Name",
     "ProcessTemplates": false,
     "enGB": "Extra Feature"
