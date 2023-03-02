@@ -253,7 +253,7 @@ namespace MartialExcellence.Util
                 //(OverbearingAdvanceFeat, OverbearingAdvance.DisplayName),
                 //(SuperstitionFeat, Superstition.DisplayName),
                 (UnrestrainedRageGuid, UnrestrainedRage.DisplayName),
-                (SpiritTotemLesserGuid, SpiritTotemLesser.DisplayName),
+                //(SpiritTotemLesserGuid, SpiritTotemLesser.DisplayName), This Ability only currently appears to exist as a GUID.
                 //(WitchHunterFeat, WitchHunter.DisplayName),
             };
 
