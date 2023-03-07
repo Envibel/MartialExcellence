@@ -55,9 +55,17 @@ namespace MartialExcellence.Feats
                     .SetIcon(Icon)
                     .Configure();
 
-            List<Blueprint<BlueprintBuffReference>> reqBuffs = new List<Blueprint<BlueprintBuffReference>>();
-            reqBuffs.Add(BuffRefs.StandartRageBuff.ToString());
-            reqBuffs.Add(BuffRefs.PowerAttackBuff.ToString());
+            List<Blueprint<BlueprintBuffReference>> reqStandardBuffs = new List<Blueprint<BlueprintBuffReference>>();
+            reqStandardBuffs.Add(BuffRefs.StandartRageBuff.ToString());
+            reqStandardBuffs.Add(BuffRefs.PowerAttackBuff.ToString());
+
+            List<Blueprint<BlueprintBuffReference>> reqBloodBuffs = new List<Blueprint<BlueprintBuffReference>>();
+            reqBloodBuffs.Add(BuffRefs.BloodragerStandartRageBuff.ToString());
+            reqBloodBuffs.Add(BuffRefs.PowerAttackBuff.ToString());
+
+            List<Blueprint<BlueprintBuffReference>> reqFocusedBuffs = new List<Blueprint<BlueprintBuffReference>>();
+            reqFocusedBuffs.Add(BuffRefs.StandartFocusedRageBuff.ToString());
+            reqFocusedBuffs.Add(BuffRefs.PowerAttackBuff.ToString());
 
             var abilityStandardRage =
                 AbilityConfigurator.New(FeatAbilityStandardRageName, Guids.RagingBrutalityAbilityStandardRageGuid)
@@ -66,7 +74,7 @@ namespace MartialExcellence.Feats
                     .SetType(AbilityType.Extraordinary)
                     .AddAbilityResourceLogic(3, isSpendResource: true, requiredResource: AbilityResourceRefs.RageResourse.ToString())
                     .SetActionType(UnitCommand.CommandType.Swift)
-                    .AddTargetHasBuffsFromCaster(reqBuffs, requireAllBuffs: true)
+                    .AddTargetHasBuffsFromCaster(reqStandardBuffs, requireAllBuffs: true)
                     .AddAbilityEffectRunAction(
                         ActionsBuilder.New().ApplyBuffWithDurationSeconds(buff, 6, isNotDispelable: true))
                     .SetRange(AbilityRange.Personal)
@@ -80,7 +88,7 @@ namespace MartialExcellence.Feats
                     .SetType(AbilityType.Extraordinary)
                     .AddAbilityResourceLogic(3, isSpendResource: true, requiredResource: AbilityResourceRefs.FocusedRageResourse.ToString())
                     .SetActionType(UnitCommand.CommandType.Swift)
-                    .AddTargetHasBuffsFromCaster(reqBuffs, requireAllBuffs: true)
+                    .AddTargetHasBuffsFromCaster(reqFocusedBuffs, requireAllBuffs: true)
                     .AddAbilityEffectRunAction(
                         ActionsBuilder.New().ApplyBuffWithDurationSeconds(buff, 6, isNotDispelable: true))
                     .SetRange(AbilityRange.Personal)
@@ -94,18 +102,23 @@ namespace MartialExcellence.Feats
                     .SetType(AbilityType.Extraordinary)
                     .AddAbilityResourceLogic(3, isSpendResource: true, requiredResource: AbilityResourceRefs.BloodragerRageResource.ToString())
                     .SetActionType(UnitCommand.CommandType.Swift)
-                    .AddTargetHasBuffsFromCaster(reqBuffs, requireAllBuffs: true)
+                    .AddTargetHasBuffsFromCaster(reqBloodBuffs, requireAllBuffs: true)
                     .AddAbilityEffectRunAction(
                         ActionsBuilder.New().ApplyBuffWithDurationSeconds(buff, 6, isNotDispelable: true))
                     .SetRange(AbilityRange.Personal)
                     .SetIcon(Icon)
                     .Configure();
 
+            List<Blueprint<BlueprintFeatureReference>> rageFeatures = new List<Blueprint<BlueprintFeatureReference>>();
+            rageFeatures.Add(FeatureRefs.RageFeature.ToString());
+            rageFeatures.Add(FeatureRefs.BloodragerRageFeature.ToString());
+            rageFeatures.Add(FeatureRefs.FocusedRageFeature.ToString());
+
             FeatureConfigurator.New(FeatName, Guids.RagingBrutalityGuid, FeatureGroup.CombatFeat, FeatureGroup.Feat, FeatureGroup.RangerStyle)
                 .SetDisplayName(DisplayName)
                 .SetDescription(Description)
                 .AddPrerequisiteFeature(FeatureRefs.PowerAttackFeature.ToString())
-                .AddPrerequisiteFeature(FeatureRefs.RageFeature.ToString())
+                .AddPrerequisiteFeaturesFromList(rageFeatures)
                 .AddPrerequisiteStatValue(StatType.BaseAttackBonus, 12)
                 .AddPrerequisiteStatValue(StatType.Strength, 13)
                 .AddFeatureTagsComponent(FeatureTag.Melee | FeatureTag.Damage | FeatureTag.ClassSpecific)

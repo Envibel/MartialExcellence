@@ -15,6 +15,8 @@ using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints;
 using MartialExcellence.Races.Skinwalker;
 using MartialExcellence.Races.Orc;
+using MartialExcellence.Archetypes;
+
 
 namespace MartialExcellence
 {
@@ -77,7 +79,9 @@ namespace MartialExcellence
                     RagingBrutality.Configure();
                     HandsOfValor.Configure();
                     ExtraFeature.Configure();
-      
+                    //KitsuneFCB.Configure();
+
+
                     Logger.Info("Configuring rage power blueprints.");
                     // Configure Rage Powers
                     ComeAndGetMe.Configure();
@@ -87,6 +91,12 @@ namespace MartialExcellence
                     Logger.Info("Configuring background blueprints.");
                     // Configure Backgrounds
                     JungleExplorer.Configure();
+                    //FeralChild.Configure();
+                    //DesnaChosen.Configure();
+
+                    Logger.Info("Configuring archetype blueprints.");
+                    // Configure Archetypes
+                    //Siegebreaker.Configure();
 
                 }
                 catch (Exception e)

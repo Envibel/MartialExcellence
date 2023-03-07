@@ -27,7 +27,7 @@ namespace MartialExcellence.Feats
         public static void Configure()
         {
 
-            FeatureConfigurator.New(FeatName, Guids.ViciousStompGuid, FeatureGroup.CombatFeat, FeatureGroup.Feat)
+            FeatureConfigurator.New(FeatName, Guids.ViciousStompGuid, FeatureGroup.CombatFeat)
                 .SetDisplayName(DisplayName)
                 .SetDescription(Description)
                 .AddFeatureTagsComponent(FeatureTag.Melee | FeatureTag.CombatManeuver)

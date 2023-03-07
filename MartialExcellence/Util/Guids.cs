@@ -51,6 +51,9 @@ namespace MartialExcellence.Util
 
         internal const string ExtraFeatureGuid = "9067dd74-b878-44c2-9211-ec0759e77161";
 
+        internal const string KitsuneFCBFakeGuid = "c760a425-8235-433a-bc50-cf8da296a285";
+
+
         internal static readonly (string guid, string displayName)[] Feats =
             new (string, string)[]
             {
@@ -261,7 +264,28 @@ namespace MartialExcellence.Util
 
         #region Backgrounds
         internal const string JungleExplorerGuid = "97ed0d30-9f70-4d85-b0fd-1eacd6f91208";
+        internal const string FeralChildGuid = "298af778-84b3-44fe-a794-09ff4d253fbc";
+        internal const string DesnaChosenGuid = "29891c9d-2a6d-4898-9c1d-51ebd8c4b257";
 
+
+
+        #endregion
+
+        #region Archetypes
+
+        internal const string SiegebreakerGuid = "ab7bf50a-87d9-4a67-bda2-c1ddf1fed3c9";
+        internal const string BreakerMomentumGuid = "ff063363-e6bb-4110-947d-6d026f5d97f6";
+        internal const string BreakerMomentumAbilityGuid = "017f7bc2-f2a4-40c7-860a-c33d89957600";
+        internal const string BreakerRushGuid = "6eed1e08-d183-47b1-909e-fcec71d8052d";
+        internal const string BreakerRushBuffGuid = "7dbb9832-aba4-4a68-b9c7-edeab6761f8b";
+        internal const string ArmoredVigorGuid = "62f6a6e7-4f15-4941-8f67-3db1707e9638";
+        internal const string ArmoredVigorAbilityGuid = "3bc4b199-8053-4823-886d-ebea88402cc9";
+        internal const string DisorientingBlowGuid = "8ee80495-8a0e-45cb-8983-5d2be6e59c9b";
+        internal const string DisorientingBlowAbilityGuid = "9dbc0261-400d-4f3f-9387-ad362c8f5612";
+        internal const string MasterfulDistractionGuid = "5d693b15-0746-48f1-9968-dad9e8b7bef9";
+        internal const string BreakerRushOverrunPropertyGuid = "ed758d0c-9f60-4875-a13e-d76b87f61c75";
+
+        
         #endregion
     }
 }

@@ -942,6 +942,113 @@
   },
 
   {
+    "Key": "KitsuneFCBFake.Name",
+    "ProcessTemplates": false,
+    "enGB": "Kitsune FCB"
+  },
+
+  {
+    "Key": "KitsuneFCBFake.Description",
+    "ProcessTemplates": false,
+    "enGB": "Gain a +1 bonus to the DC for enchantment spells for every 4 levels in sorcerer"
+  },
+
+  {
+    "Key": "FeralChild.Name",
+    "ProcessTemplates": false,
+    "enGB": "Feral Child"
+  },
+
+  {
+    "Key": "FeralChild.Description",
+    "ProcessTemplates": false,
+    "enGB": "Gain a +1 trait bonus to attacks rolls with natural weapons"
+  },
+
+  {
+    "Key": "DesnaChosen.Name",
+    "ProcessTemplates": false,
+    "enGB": "Desna Chosen"
+  },
+
+  {
+    "Key": "DesnaChosen.Description",
+    "ProcessTemplates": false,
+    "enGB": "Gain proficiency with starknives, a +1 bonus to reflex saves, and mobility and persuasion as class skills"
+  },
+
+  {
+    "Key": "Siegebreaker.Name",
+    "ProcessTemplates": false,
+    "enGB": "Siegebreaker"
+  },
+
+  {
+    "Key": "Siegebreaker.Description",
+    "enGB": "The siegebreaker is trained to break through lines of enemy soldiers."
+  },
+
+  {
+    "Key": "Siegebreaker.BreakerRush.Name",
+    "ProcessTemplates": false,
+    "enGB": "Breaker Rush"
+  },
+
+  {
+    "Key": "Siegebreaker.BreakerRush.Description",
+    "ProcessTemplates": false,
+    "enGB": "At 1st level, a siegebreaker can attempt bull rush or overrun combat maneuvers without provoking attacks of opportunity. When he performs either combat maneuver, he deals an amount of bludgeoning damage equal to his Strength bonus (minimum 1). If he has Improved Bull Rush or Improved Overrun, the damage dealt by the appropriate maneuver increases by 2 and he adds any enhancement bonus from his armor or shield (though such enhancement bonuses do not stack, if both armor and shield are magic). This ability replaces the feat gained at 1st level."
+  },
+
+  {
+    "Key": "Siegebreaker.ArmoredVigor.Name",
+    "ProcessTemplates": false,
+    "enGB": "Armored Vigor"
+  },
+
+  {
+    "Key": "Siegebreaker.ArmoredVigor.Description",
+    "ProcessTemplates": false,
+    "enGB": "At 2nd level as a swift action, a siegebreaker can gain 2 temporary hit points that last for 1 minute. He can use this ability a number of times per day equal to 3 + his Constitution modifier (minimum 1 per day), but only while wearing armor. At 6th level and every 4 levels thereafter, the number of temporary hit points the siegebreaker gains increases by 2, to a maximum of 10 at 18th level. This ability replaces bravery."
+  },
+
+  {
+    "Key": "Siegebreaker.BreakerMomentum.Name",
+    "ProcessTemplates": false,
+    "enGB": "Breaker Momentum"
+  },
+
+  {
+    "Key": "Siegebreaker.BreakerMomentum.Description",
+    "ProcessTemplates": false,
+    "enGB": "At 2nd level, when a siegebreaker successfully bull rushes a foe, he can attempt an overrun combat maneuver check against that foe as a free action. This ability replaces the feat gained at 2nd level."
+  },
+
+  {
+    "Key": "Siegebreaker.DisorientingBlow.Name",
+    "ProcessTemplates": false,
+    "enGB": "Disorienting Blow"
+  },
+
+  {
+    "Key": "Siegebreaker.DisorientingBlow.Description",
+    "ProcessTemplates": false,
+    "enGB": "At 8th level, as an immediate action, a siegebreaker can distract a foe he just hit with an attack or combat maneuver, imposing a –2 penalty on the foe’s attack rolls, caster level checks, or skill checks for 1 round. The foe can negate this penalty with a successful Fortitude save (DC = 10 + 1/2 the siegebreaker’s fighter level + his Strength modifier). At 14th level, the penalty increases to –4. This ability replaces the bonus feat gained at 8th level."
+  },
+
+  {
+    "Key": "Siegebreaker.MasterfulDistraction.Name",
+    "ProcessTemplates": false,
+    "enGB": "Masterful Distraction"
+  },
+
+  {
+    "Key": "Siegebreaker.MasterfulDistraction.Description",
+    "ProcessTemplates": false,
+    "enGB": "At 20th level, a siegebreaker can nauseate a foe he targets with his disorienting blow instead of inflicting a penalty. This ability replaces weapon mastery."
+  },
+
+  {
     "Key": "MartialExcellence.Settings.Title",
     "ProcessTemplates": false,
     "enGB": "Martial Excellence"

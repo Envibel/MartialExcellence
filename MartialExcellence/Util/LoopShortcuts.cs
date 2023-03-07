@@ -23,10 +23,10 @@ namespace MartialExcellence.Util
         internal static readonly (Blueprint<BlueprintReference<BlueprintBuff>> buffRef, string Name)[] rageTypes =
     new (Blueprint<BlueprintReference<BlueprintBuff>>, string)[]
     {
-                (BuffRefs.StandartRageBuff, "Standard Rage"),
+                (BuffRefs.StandartFocusedRageBuff, "Standard Rage"),
                 (BuffRefs.StandartFocusedRageBuff, "Focused Rage"),
                 (BuffRefs.BloodragerStandartRageBuff, "Bloodrager Rage"),
-                (BuffRefs.InspiredRageBuff, "Skaled Inspired Rage"),
+                (BuffRefs.InspiredRageBuff, "Skald Inspired Rage"),
     };
 
     }

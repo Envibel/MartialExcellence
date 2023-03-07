@@ -4,6 +4,7 @@ using BlueprintCore.Blueprints.Configurators.Classes;
 using BlueprintCore.Blueprints.Configurators.Classes.Selection;
 using BlueprintCore.Blueprints.CustomConfigurators;
 using BlueprintCore.Blueprints.CustomConfigurators.Classes;
+using BlueprintCore.Blueprints.CustomConfigurators.Classes.Selection;
 using BlueprintCore.Blueprints.CustomConfigurators.UnitLogic.Abilities;
 using BlueprintCore.Blueprints.CustomConfigurators.UnitLogic.Buffs;
 using BlueprintCore.Blueprints.References;
@@ -73,7 +74,7 @@ namespace MartialExcellence.Races.Skinwalker.Heritages
 
 
         private static readonly string ClassicIcon = "assets/icons/skinwalkerclassic.jpg";
-        private static readonly string HeritageIcon = "assets/icons/skinwalkerheritage.jpg";
+        // private static readonly string HeritageIcon = "assets/icons/skinwalkerheritage.jpg";
         private static readonly string ChangeShapeIcon = "assets/icons/changeshape.jpg";
         private static readonly string ArmorIcon = "assets/icons/changeshapearmor.jpg";
         private static readonly string ClawsIcon = "assets/icons/changeshapeclaws.jpg";
