@@ -71,8 +71,8 @@ namespace MartialExcellence.Races.Skinwalker
 
             var skinwalkerSpellLikeResource =
                 AbilityResourceConfigurator.New(SkinwalkerSpellLikeResourceName, Guids.SkinwalkerSpellLikeResourceGuid)
-                .SetMaxAmount(ResourceAmountBuilder.New(1))
-                .Configure();
+                    .SetMaxAmount(ResourceAmountBuilder.New(1))
+                    .Configure();
 
 
 
