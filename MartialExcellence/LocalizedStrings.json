@@ -75,7 +75,7 @@
   {
     "Key": "ViciousStomp.Description",
     "enGB": "Whenever an opponent falls prone adjacent to you, that opponent provokes an attack of opportunity from you. This does not stack with greater trip. This attack must be an unarmed strike.",
-    "zhCN": "每当邻接敌人倒地时，那个敌人引发你的借机攻击。这不能和恶毒践踏者叠加。这次攻击必须为徒手攻击。"
+    "zhCN": "每当邻接敌人倒地时，那个敌人引发你的借机攻击。这不能和高等摔绊叠加。这次攻击必须为徒手攻击。"
   },
 
   {
@@ -1107,108 +1107,126 @@
   {
     "Key": "KitsuneFCBFake.Name",
     "ProcessTemplates": false,
-    "enGB": "Kitsune FCB"
+    "enGB": "Kitsune FCB",
+    "zhCN": "狐妖天赋职业奖励"
   },
 
   {
     "Key": "KitsuneFCBFake.Description",
     "ProcessTemplates": false,
-    "enGB": "Gain a +1 bonus to the DC for enchantment spells for every 4 levels in sorcerer"
+    "enGB": "Gain a +1 bonus to the DC for enchantment spells for every 4 levels in sorcerer",
+    "zhCN": "每4个术士等级，惑控学派法术的DC获得 +1 加值"
   },
 
   {
     "Key": "FeralChild.Name",
     "ProcessTemplates": false,
-    "enGB": "Feral Child"
+    "enGB": "Feral Child",
+    "zhCN": "野孩子"
   },
 
   {
     "Key": "FeralChild.Description",
     "ProcessTemplates": false,
-    "enGB": "Gain a +1 trait bonus to attacks rolls with natural weapons"
+    "enGB": "Gain a +1 trait bonus to attacks rolls with natural weapons",
+    "zhCN": "天生武器攻击掷骰获得+1特性加值"
   },
 
   {
     "Key": "DesnaChosen.Name",
     "ProcessTemplates": false,
-    "enGB": "Desna Chosen"
+    "enGB": "Desna Chosen",
+    "zhCN": "德丝娜选民"
   },
 
   {
     "Key": "DesnaChosen.Description",
     "ProcessTemplates": false,
-    "enGB": "Gain proficiency with starknives, a +1 bonus to reflex saves, and mobility and persuasion as class skills"
+    "enGB": "Gain proficiency with starknives, a +1 bonus to reflex saves, and mobility and persuasion as class skills",
+    "zhCN": "获得擅长星刃，反射豁免获得+1 加值，且灵巧和沟通成为本职技能"
   },
 
   {
     "Key": "Siegebreaker.Name",
     "ProcessTemplates": false,
-    "enGB": "Siegebreaker"
+    "enGB": "Siegebreaker",
+    "zhCN": "破军战士"
   },
 
   {
     "Key": "Siegebreaker.Description",
-    "enGB": "The siegebreaker is trained to break through lines of enemy soldiers."
+    "enGB": "The siegebreaker is trained to break through lines of enemy soldiers.",
+    "zhCN": "受到训练的破军战士以猛烈的冲击打散敌人。"
   },
 
   {
     "Key": "Siegebreaker.BreakerRush.Name",
     "ProcessTemplates": false,
-    "enGB": "Breaker Rush"
+    "enGB": "Breaker Rush",
+    "zhCN": "横冲直撞"
   },
 
   {
     "Key": "Siegebreaker.BreakerRush.Description",
     "ProcessTemplates": false,
-    "enGB": "At 1st level, a siegebreaker can attempt bull rush or overrun combat maneuvers without provoking attacks of opportunity. When he performs either combat maneuver, he deals an amount of bludgeoning damage equal to his Strength bonus (minimum 1). If he has Improved Bull Rush or Improved Overrun, the damage dealt by the appropriate maneuver increases by 2 and he adds any enhancement bonus from his armor or shield (though such enhancement bonuses do not stack, if both armor and shield are magic). This ability replaces the feat gained at 1st level."
+    "enGB": "At 1st level, a siegebreaker can attempt bull rush or overrun combat maneuvers without provoking attacks of opportunity. When he performs either combat maneuver, he deals an amount of bludgeoning damage equal to his Strength bonus (minimum 1). If he has Improved Bull Rush or Improved Overrun, the damage dealt by the appropriate maneuver increases by 2 and he adds any enhancement bonus from his armor or shield (though such enhancement bonuses do not stack, if both armor and shield are magic). This ability replaces the feat gained at 1st level.",
+    "zhCN": "在1级时，破军战士可以在发动冲撞或闯越战技攻击时不引发藉机攻击。除此之外，只要他发动这两种战技攻击，破军在战技攻击命中时就可以对目标造成相当于他力量调整值的钝击伤害（最小为1）。如果破军拥有精通冲撞或者精通闯越专长，那么他造成的撞击伤害还会额外+2，并再加上他的护甲或盾牌所具有的任何增强加值（如果他同时使用魔法护甲和盾牌，这个加值只能选择其一，不可叠加）。本能力取代战士在1级时获得的奖励专长。"
   },
 
   {
     "Key": "Siegebreaker.ArmoredVigor.Name",
     "ProcessTemplates": false,
-    "enGB": "Armored Vigor"
+    "enGB": "Armored Vigor",
+    "zhCN": "铁塔"
   },
 
   {
     "Key": "Siegebreaker.ArmoredVigor.Description",
     "ProcessTemplates": false,
-    "enGB": "At 2nd level as a swift action, a siegebreaker can gain 2 temporary hit points that last for 1 minute. He can use this ability a number of times per day equal to 3 + his Constitution modifier (minimum 1 per day), but only while wearing armor. At 6th level and every 4 levels thereafter, the number of temporary hit points the siegebreaker gains increases by 2, to a maximum of 10 at 18th level. This ability replaces bravery."
+    "enGB": "At 2nd level as a swift action, a siegebreaker can gain 2 temporary hit points that last for 1 minute. He can use this ability a number of times per day equal to 3 + his Constitution modifier (minimum 1 per day), but only while wearing armor. At 6th level and every 4 levels thereafter, the number of temporary hit points the siegebreaker gains increases by 2, to a maximum of 10 at 18th level. This ability replaces bravery.",
+    "zhCN": "在2级时，以一个迅捷动作，破军战士可以获得2点临时生命值，持续1分钟。破军战士每天可以发动本能力的次数相当于3+他的体质调整值，但他必须着甲才能使用本能力。在6级以及之后每提升4个等级时，这个临时生命值数量再提升2点，直到在18级时达到最大值10点。本能力取代无畏。"
   },
 
   {
     "Key": "Siegebreaker.BreakerMomentum.Name",
     "ProcessTemplates": false,
-    "enGB": "Breaker Momentum"
+    "enGB": "Breaker Momentum",
+    "zhCN": "风卷残云"
   },
 
   {
     "Key": "Siegebreaker.BreakerMomentum.Description",
     "ProcessTemplates": false,
-    "enGB": "At 2nd level, when a siegebreaker successfully bull rushes a foe, he can attempt an overrun combat maneuver check against that foe as a free action. This ability replaces the feat gained at 2nd level."
+    "enGB": "At 2nd level, when a siegebreaker successfully bull rushes a foe, he can attempt an overrun combat maneuver check against that foe as a free action. This ability replaces the feat gained at 2nd level.",
+    "zhCN": "在2级时，如果破军战士成功的对一个目标发动了冲撞战技攻击，那么他可以同时以自由动作对目标再进行一次闯越战技攻击。本能力取代战士在2级时获得的奖励专长。"
   },
 
   {
     "Key": "Siegebreaker.DisorientingBlow.Name",
     "ProcessTemplates": false,
-    "enGB": "Disorienting Blow"
+    "enGB": "Disorienting Blow",
+    "zhCN": "扰乱一击"
   },
 
   {
     "Key": "Siegebreaker.DisorientingBlow.Description",
     "ProcessTemplates": false,
-    "enGB": "At 8th level, as an immediate action, a siegebreaker can distract a foe he just hit with an attack or combat maneuver, imposing a –2 penalty on the foe’s attack rolls, caster level checks, or skill checks for 1 round. The foe can negate this penalty with a successful Fortitude save (DC = 10 + 1/2 the siegebreaker’s fighter level + his Strength modifier). At 14th level, the penalty increases to –4. This ability replaces the bonus feat gained at 8th level."
+    "enGB": "At 8th level, as an immediate action, a siegebreaker can distract a foe he just hit with an attack or combat maneuver, imposing a –2 penalty on the foe’s attack rolls, caster level checks, or skill checks for 1 round. The foe can negate this penalty with a successful Fortitude save (DC = 10 + 1/2 the siegebreaker’s fighter level + his Strength modifier). At 14th level, the penalty increases to –4. This ability replaces the bonus feat gained at 8th level.",
+    "zhCN": "在8级时，破军战士可以以一个即时动作，使用一次攻击检定或一次战技攻击扰乱敌人的注意力，迫使他在攻击检定，施法者等级检定或技能检定上承受-2减值，持续1轮。受到本能力影响的生物可以通过一个DC=（10+破军战士战士等级的一半+破军战士的力量调整值）的强韧检定来抵抗本效果。在14级时，本能力造成的减值提高到-4。本能力取代战士在8级时获得的奖励专长。"
   },
 
   {
     "Key": "Siegebreaker.MasterfulDistraction.Name",
     "ProcessTemplates": false,
-    "enGB": "Masterful Distraction"
+    "enGB": "Masterful Distraction",
+    "zhCN": "扰乱大师"
   },
 
   {
     "Key": "Siegebreaker.MasterfulDistraction.Description",
     "ProcessTemplates": false,
-    "enGB": "At 20th level, a siegebreaker can nauseate a foe he targets with his disorienting blow instead of inflicting a penalty. This ability replaces weapon mastery."
+    "enGB": "At 20th level, a siegebreaker can nauseate a foe he targets with his disorienting blow instead of inflicting a penalty. This ability replaces weapon mastery.",
+    "zhCN": "在20级时，破军的扰乱一击可以导致他的目标陷入反胃状态而不仅仅是承受减值。本能力取代武器大师。"
   },
 
   {
@@ -1264,7 +1282,7 @@
     "Key": "MartialExcellence.Settings.EnableFeature",
     "ProcessTemplates": false,
     "enGB": "REQUIRES RESTART\n\nTurning this off prevents the feature from working: characters cannot select this feature and characters with it cannot use it. You can still load save games that reference it.",
-    "zhCN": "需要重启\n\n关闭这个选项也阻止改特性工作：角色无法选择这个特性，已有改特性的角色也无法使用。你还是可以正常读取原先的存档。"
+    "zhCN": "需要重启\n\n关闭这个选项也阻止该特性工作：角色无法选择这个特性，已有该特性的角色也无法使用。你还是可以正常读取原先的存档。"
   }
 
 ]
