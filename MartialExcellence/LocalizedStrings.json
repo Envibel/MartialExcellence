@@ -279,7 +279,7 @@
   {
     "Key": "Skinwalker.Heritage.Classic.ChangeShapeBase.Description",
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor.",
-    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生护甲＋1种族加值"
+    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生防御＋1种族加值"
   },
 
   {
@@ -293,7 +293,7 @@
     "Key": "Skinwalker.Heritage.Classic.ChangeShapeClaws.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor.",
-    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生护甲＋1种族加值"
+    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生防御＋1种族加值"
   },
 
   {
@@ -307,7 +307,7 @@
     "Key": "Skinwalker.Heritage.Classic.ChangeShapeArmor.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor.",
-    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生护甲＋1种族加值"
+    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生防御＋1种族加值"
   },
 
   {
@@ -321,7 +321,7 @@
     "Key": "Skinwalker.Heritage.Classic.ChangeShapePerception.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n 2 claw attacks that each deal 1d4 points of damage. \n Darkvision to a range of 60 feet. \n +1 racial bonus to natural armor.",
-    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生护甲＋1种族加值"
+    "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 2次1d4伤害的爪抓攻击\n 60尺黑暗视觉\n 天生防御＋1种族加值"
   },
 
   {
@@ -593,7 +593,7 @@
   {
     "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeBase.Description",
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity.",
-        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生护甲加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
+        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生防御加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
   },
 
   {
@@ -607,7 +607,7 @@
     "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeBite.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity.",
-        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生护甲加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
+        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生防御加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
   },
 
   {
@@ -621,7 +621,7 @@
     "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeArmor.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity.",
-        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生护甲加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
+        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生防御加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
   },
 
   {
@@ -635,7 +635,7 @@
     "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeInitiative.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity.",
-        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生护甲加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
+        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生防御加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
   },
 
   {
@@ -649,7 +649,7 @@
     "Key": "Skinwalker.Heritage.Scaleheart.ChangeShapeFerocity.Description",
     "ProcessTemplates": false,
     "enGB": "A skinwalker can change shape to and from a bestial form as a move action. While in this form, a skinwalker also takes on an animalistic feature that provides a special effect. Each time a skinwalker assumes bestial form, she can choose to gain one of the following features: \n Bite attack that deals 1d6 points of damage \n +1 natural armor bonus \n +2 racial bonus on initiative checks \n Ferocity.",
-        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生护甲加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
+        "zhCN": "兽态人能够以一个移动动作进入一种兽形状态。在这种状态下，兽态人获得动物的特性来获得特殊效果。每次兽态人进入兽形状态时，他可以从下列特征中选择一项：\n 1d6伤害啮咬攻击 \n +1 天生防御加值 \n +2 先攻检定种族奖励 \n 凶猛（生命低于0可继续战斗）."
   },
 
   {
