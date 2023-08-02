@@ -30,8 +30,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Kingmaker.Designers.Mechanics.Buffs;
 using static Kingmaker.UnitLogic.Commands.Base.UnitCommand;
 using static Kingmaker.UnitLogic.FactLogic.AddMechanicsFeature;
+using static CodexLib.Helper;
+using CodexLib;
+using Kingmaker.Blueprints.Classes.Prerequisites;
 
 namespace MartialExcellence.Races.Orc
 {
@@ -50,9 +54,10 @@ namespace MartialExcellence.Races.Orc
 
 
         private static readonly LogWrapper Logger = LogWrapper.Get("MartialExcellence");
-
         public static void Configure()
         {
+            var mythic = Helper.ToRef<BlueprintUnitFactReference>("325f078c584318849bfe3da9ea245b9d").ObjToArray();
+            var mythicraces = mythic[0].Get().GetComponent<PrerequisiteFeaturesFromList>();
             var ferocity =
                 FeatureConfigurator.New(OrcFerocityName, Guids.OrcFerocityGuid)
                 .SetDisplayName(OrcFerocityDisplayName)
@@ -69,9 +74,30 @@ namespace MartialExcellence.Races.Orc
                 .SetSelectableRaceStat(false)
                 .SetFeatures(ferocity, FeatureRefs.OrcWeaponFamiliarity.ToString())
                 .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Strength, value: 4)
-                .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Wisdom, value: -2)
-                .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Intelligence, value: -2)
-                .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Charisma, value: -2)
+                .AddComponent(new AddStatBonusIfHasFact
+                {
+                    Descriptor = ModifierDescriptor.Racial,
+                    Stat = StatType.Wisdom,
+                    Value = -2,
+                    InvertCondition = true,
+                    m_CheckedFacts = mythic
+                })
+                .AddComponent(new AddStatBonusIfHasFact
+                {
+                    Descriptor = ModifierDescriptor.Racial,
+                    Stat = StatType.Intelligence,
+                    Value = -2,
+                    InvertCondition = true,
+                    m_CheckedFacts = mythic
+                })
+                .AddComponent(new AddStatBonusIfHasFact
+                {
+                    Descriptor = ModifierDescriptor.Racial,
+                    Stat = StatType.Charisma,
+                    Value = -2,
+                    InvertCondition = true,
+                    m_CheckedFacts = mythic
+                })
                 .SetIcon(OrcIcon)
                 .SetRaceId(Race.HalfOrc)
                 .Configure(delayed: true);
@@ -80,6 +106,9 @@ namespace MartialExcellence.Races.Orc
             // Add race to race list
             var raceRef = race.ToReference<BlueprintRaceReference>();
             ref var races = ref BlueprintRoot.Instance.Progression.m_CharacterRaces;
+
+            // Add race to Destiny Beyond Birth
+            Helper.AppendAndReplace(ref mythicraces.m_Features, raceRef);
 
             var length = races.Length;
             Array.Resize(ref races, length + 1);
