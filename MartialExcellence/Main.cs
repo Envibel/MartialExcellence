@@ -15,7 +15,7 @@ using Kingmaker.Blueprints.Classes;
 using Kingmaker.Blueprints;
 using MartialExcellence.Races.Skinwalker;
 using MartialExcellence.Races.Orc;
-using MartialExcellence.Archetypes;
+//using MartialExcellence.Archetypes;
 
 
 namespace MartialExcellence
