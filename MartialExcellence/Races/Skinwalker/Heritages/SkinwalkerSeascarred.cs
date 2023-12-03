@@ -33,6 +33,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static Kingmaker.UnitLogic.Commands.Base.UnitCommand;
 using static Kingmaker.UnitLogic.FactLogic.AddMechanicsFeature;
+using CodexLib;
 
 namespace MartialExcellence.Races.Skinwalker.Heritages
 {
@@ -249,6 +250,8 @@ namespace MartialExcellence.Races.Skinwalker.Heritages
                     .AddAbilityResourceLogic(1, isSpendResource: true, requiredResource: skinwalkerSpellLikeResource)
                     .Configure();
 
+            var mythic = Helper.ToRef<BlueprintUnitFactReference>("325f078c584318849bfe3da9ea245b9d").ObjToArray();
+
             var heritageSeascarred =
                 FeatureConfigurator.New(SkinwalkerHeritageSeascarredName, Guids.SkinwalkerHeritageSeascarredGuid)
                     .SetDisplayName(HeritageSeascarredDisplayName)
@@ -262,7 +265,14 @@ namespace MartialExcellence.Races.Skinwalker.Heritages
                     .AddStatBonus(ModifierDescriptor.UntypedStackable, stat: StatType.SkillAthletics, value: 2)
                     .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Constitution, value: 2)
                     .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Wisdom, value: 2)
-                    .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Intelligence, value: -2)
+                    .AddComponent(new AddStatBonusIfHasFact
+                    {
+                        Descriptor = ModifierDescriptor.Racial,
+                        Stat = StatType.Intelligence,
+                        Value = -2,
+                        InvertCondition = true,
+                        m_CheckedFacts = mythic
+                    })
                     .SetIcon(SeascarredIcon)
                     .Configure();
 

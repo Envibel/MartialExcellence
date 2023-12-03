@@ -32,6 +32,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static Kingmaker.UnitLogic.Commands.Base.UnitCommand;
+using CodexLib;
 
 namespace MartialExcellence.Races.Skinwalker.Heritages
 {
@@ -249,6 +250,8 @@ namespace MartialExcellence.Races.Skinwalker.Heritages
                     .AddAbilityResourceLogic(1, isSpendResource: true, requiredResource: skinwalkerSpellLikeResource)
                     .Configure();
 
+            var mythic = Helper.ToRef<BlueprintUnitFactReference>("325f078c584318849bfe3da9ea245b9d").ObjToArray();
+
             var heritageBloodmarked =
                 FeatureConfigurator.New(SkinwalkerHeritageBloodmarkedName, Guids.SkinwalkerHeritageBloodmarkedGuid)
                     .SetDisplayName(HeritageBloodmarkedDisplayName)
@@ -262,7 +265,14 @@ namespace MartialExcellence.Races.Skinwalker.Heritages
                     .AddStatBonus(ModifierDescriptor.UntypedStackable, stat: StatType.SkillPerception, value: 2)
                     .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Intelligence, value: 2)
                     .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Dexterity, value: 2)
-                    .AddStatBonus(ModifierDescriptor.Racial, stat: StatType.Wisdom, value: -2)
+                    .AddComponent(new AddStatBonusIfHasFact
+                    {
+                        Descriptor = ModifierDescriptor.Racial,
+                        Stat = StatType.Wisdom,
+                        Value = -2,
+                        InvertCondition = true,
+                        m_CheckedFacts = mythic
+                    })
                     .SetIcon(BloodmarkedIcon)
                     .Configure();
 
